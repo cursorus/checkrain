@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Palera1n Boot">
+    <link rel="apple-touch-icon" href="icon.png">
+
+    <title>Verbose Boot</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            color: white;
+            font-family: "SF Mono", "Monaco", "Inconsolata", monospace;
+            font-size: 10px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #log-container {
+            padding: 10px;
+            white-space: pre-wrap;
+            word-break: break-all;
+            line-height: 1.2;
+            z-index: 1;
+        }
+
+        /* Центрированная картинка */
+        #central-image {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 250px; /* Настрой размер под себя */
+            z-index: 10;
+            pointer-events: none; /* Чтобы текст можно было выделять под ней */
+            mix-blend-mode: difference; /* Эффект инверсии при контакте с текстом */
+        }
+
+        /* Анимация мигающего курсора в конце */
+        .cursor {
+            display: inline-block;
+            width: 6px;
+            height: 12px;
+            background-color: white;
+            animation: blink 1s infinite;
+            vertical-align: middle;
+        }
+
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+
+    <img src="image.png" id="central-image" alt="Boot Logo">
+
+    <div id="log-container"></div>
+
+    <script>
+        const logContainer = document.getElementById('log-container');
+
+        async function startBoot() {
+            try {
+                // Загружаем текст из внешнего файла
+                const response = await fetch('logs.txt');
+                const text = await response.text();
+                const lines = text.split('\n');
+
+                for (let line of lines) {
+                    const lineElement = document.createElement('div');
+                    lineElement.textContent = line;
+                    logContainer.appendChild(lineElement);
+
+                    // Скроллим вниз
+                    window.scrollTo(0, document.body.scrollHeight);
+
+                    // Рандомная задержка для реалистичности (от 10 до 100мс)
+                    let delay = Math.random() * 90 + 10;
+                    
+                    // Если строка важная (jbinit), делаем паузу длиннее
+                    if (line.includes('[jbinit]')) delay = 400;
+                    
+                    await new Promise(resolve => setTimeout(resolve, delay));
+                }
+
+                // Добавляем мигающий курсор в конце
+                const cursor = document.createElement('span');
+                cursor.className = 'cursor';
+                logContainer.appendChild(cursor);
+
+            } catch (error) {
+                logContainer.textContent = "Error loading logs.txt. Make sure the file exists in the root folder.";
+            }
+        }
+
+        // Запуск при загрузке страницы
+        window.onload = startBoot;
+    </script>
+</body>
+</html>
