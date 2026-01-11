@@ -6,11 +6,16 @@
     
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="Palera1n Boot">
+    <meta name="apple-mobile-web-app-title" content="Palera1n">
     <link rel="apple-touch-icon" href="icon.png">
 
     <title>Verbose Boot</title>
     <style>
+        :root {
+            /* НАСТРОЙКА РАЗМЕРА КАРТИНКИ ТУТ */
+            --img-width: 200px; 
+        }
+
         body, html {
             margin: 0;
             padding: 0;
@@ -19,91 +24,105 @@
             background-color: black;
             color: white;
             font-family: "SF Mono", "Monaco", "Inconsolata", monospace;
-            font-size: 10px;
-            overflow: hidden;
+            font-size: 11px;
+            overflow: hidden; /* Запрещаем обычный скролл */
+        }
+
+        /* Контейнер для логов */
+        #log-window {
+            position: absolute;
+            bottom: 0; /* Прижимаем к низу */
+            left: 0;
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
             display: flex;
             flex-direction: column;
+            justify-content: flex-end; /* Новые строки появляются снизу */
+            pointer-events: none;
         }
 
-        #log-container {
-            padding: 10px;
+        .line {
             white-space: pre-wrap;
             word-break: break-all;
-            line-height: 1.2;
-            z-index: 1;
+            line-height: 1.3;
+            margin-bottom: 2px;
         }
 
-        /* Центрированная картинка */
+        /* Центрированная картинка с инверсией */
         #central-image {
             position: fixed;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            width: 250px; /* Настрой размер под себя */
+            width: var(--img-width);
+            height: auto; /* Высота автоматически */
             z-index: 10;
-            pointer-events: none; /* Чтобы текст можно было выделять под ней */
-            mix-blend-mode: difference; /* Эффект инверсии при контакте с текстом */
+            pointer-events: none;
+            mix-blend-mode: difference; /* Инверсия текста под картинкой */
         }
 
-        /* Анимация мигающего курсора в конце */
         .cursor {
             display: inline-block;
-            width: 6px;
-            height: 12px;
+            width: 7px;
+            height: 13px;
             background-color: white;
-            animation: blink 1s infinite;
-            vertical-align: middle;
+            animation: blink 0.8s infinite;
+            margin-left: 5px;
         }
 
-        @keyframes blink {
-            50% { opacity: 0; }
-        }
+        @keyframes blink { 50% { opacity: 0; } }
     </style>
 </head>
 <body>
 
     <img src="image.png" id="central-image" alt="Boot Logo">
 
-    <div id="log-container"></div>
+    <div id="log-window">
+        </div>
 
     <script>
-        const logContainer = document.getElementById('log-container');
+        const logWindow = document.getElementById('log-window');
+        const MAX_LINES = 100; // Сколько строк держать в памяти, чтобы не тормозило
 
         async function startBoot() {
             try {
-                // Загружаем текст из внешнего файла
                 const response = await fetch('logs.txt');
                 const text = await response.text();
                 const lines = text.split('\n');
 
                 for (let line of lines) {
                     const lineElement = document.createElement('div');
+                    lineElement.className = 'line';
                     lineElement.textContent = line;
-                    logContainer.appendChild(lineElement);
-
-                    // Скроллим вниз
-                    window.scrollTo(0, document.body.scrollHeight);
-
-                    // Рандомная задержка для реалистичности (от 10 до 100мс)
-                    let delay = Math.random() * 90 + 10;
                     
-                    // Если строка важная (jbinit), делаем паузу длиннее
-                    if (line.includes('[jbinit]')) delay = 400;
-                    
+                    logWindow.appendChild(lineElement);
+
+                    // Если строк слишком много, удаляем старые сверху
+                    if (logWindow.children.length > MAX_LINES) {
+                        logWindow.removeChild(logWindow.firstChild);
+                    }
+
+                    // Скорость появления строк
+                    let delay = Math.random() * 70 + 5; 
+                    if (line.includes('[jbinit]')) delay = 300; // Пауза на важных этапах
+                    if (line.includes('Darwin Kernel')) delay = 500; // Пауза на старте ядра
+
                     await new Promise(resolve => setTimeout(resolve, delay));
                 }
 
-                // Добавляем мигающий курсор в конце
-                const cursor = document.createElement('span');
-                cursor.className = 'cursor';
-                logContainer.appendChild(cursor);
+                // В конце добавляем мигающий курсор
+                const cursorLine = document.createElement('div');
+                cursorLine.innerHTML = '<span class="cursor"></span>';
+                logWindow.appendChild(cursorLine);
 
             } catch (error) {
-                logContainer.textContent = "Error loading logs.txt. Make sure the file exists in the root folder.";
+                const errDiv = document.createElement('div');
+                errDiv.textContent = "FILE NOT FOUND: logs.txt";
+                logWindow.appendChild(errDiv);
             }
         }
 
-        // Запуск при загрузке страницы
         window.onload = startBoot;
     </script>
 </body>
