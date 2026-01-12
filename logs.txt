@@ -103,6 +103,1507 @@ kernelcache from preboot
 [1:032489] kernel: [APFS] Preboot volume available
 [1:052710] kernel: [Security] Enforcing developer mode overrides
 [1:072931] kernel: [AMFI] Developer mode authenticated override active
+
+[4:100000] kernel: [Network] Interface en0 attached
+[4:106304] kernel: [SpringBoard] UI fully loaded
+[4:144260] kernel: [Security] Jailbreak environment verified
+[4:161401] kernel: [Watchdog] Heartbeat running
+[4:199858] kernel: [Thermal] Monitoring stable
+[4:208713] kernel: [Audio] Ready for playback
+[4:225204] kernel: [CPU] Power management active
+[4:237906] kernel: [Memory] Heap stable
+[4:257359] kernel: [IOKit] Services matched
+[4:277622] kernel: [Userspace] Standard boot resumed
+[4:285633] kernel: [AMFI] Trust cache verified
+[4:319490] kernel: [Sandbox] Policy enforcement active
+[4:342731] kernel: [Network] Wi-Fi attached, LTE active
+[4:348154] kernel: [Bluetooth] Stack ready
+[4:361980] kernel: [CommCenter] Connected
+[4:397996] kernel: [APFS] background task finished
+[4:413089] kernel: [Network] watchpoint cleared
+[4:441314] kernel: [Watchdog] state unchanged
+[4:468532] kernel: [Backboard] background task finished
+[4:507433] kernel: [Security] power state stable
+[4:518404] kernel: [Touch] state unchanged
+[4:526594] kernel: [Watchdog] poll successful
+[4:544983] kernel: [Jetsam] status nominal
+[4:576359] kernel: [AMFI] state unchanged
+[4:608785] kernel: [USB] heartbeat ok
+[4:640183] kernel: [Jetsam] poll successful
+[4:677035] kernel: [Network] status nominal
+[4:711089] kernel: [Thermal] status nominal
+[4:747209] kernel: [Thermal] poll successful
+[4:772255] kernel: [Memory] poll successful
+[4:791306] kernel: [Security] signal acknowledged
+[4:813597] kernel: [Thermal] poll successful
+[4:843209] kernel: [CPU] async event handled
+[4:870940] kernel: [Watchdog] no anomalies detected
+[4:890907] kernel: [Scheduler] wakeup event handled
+[4:905837] kernel: [Thermal] idle cycle complete
+[4:943575] kernel: [Thermal] wakeup event handled
+[4:973502] kernel: [NFC] async event handled
+[4:991091] kernel: [NFC] background task finished
+[5:020184] kernel: [SpringBoard] poll successful
+[5:033237] kernel: [Thermal] signal acknowledged
+[5:057026] kernel: [CommCenter] idle cycle complete
+[5:068418] kernel: [WiFi] async event handled
+[5:107220] kernel: [CommCenter] idle cycle complete
+[5:146258] kernel: [APFS] queue drained
+[5:155128] kernel: [Security] latency within limits
+[5:170413] kernel: [Audio] wakeup event handled
+[5:197549] kernel: [AMFI] cache refreshed
+[5:235544] kernel: [WiFi] healthcheck passed
+[5:249775] kernel: [USB] metrics updated
+[5:281411] kernel: [IOKit] power state stable
+[5:299969] kernel: [Display] healthcheck passed
+[5:336798] kernel: [Network] latency within limits
+[5:363380] kernel: [USB] power state stable
+[5:372082] kernel: [IOKit] signal acknowledged
+[5:392011] kernel: [CommCenter] poll successful
+[5:406804] kernel: [Security] poll successful
+[5:440304] kernel: [Display] async event handled
+[5:456623] kernel: [Touch] status nominal
+[5:464805] kernel: [Security] watchpoint cleared
+[5:482662] kernel: [Display] background task finished
+[5:507698] kernel: [WiFi] no anomalies detected
+[5:522949] kernel: [Jetsam] watchpoint cleared
+[5:557223] kernel: [Memory] healthcheck passed
+[5:577809] kernel: [Network] heartbeat ok
+[5:592064] kernel: [Touch] watchpoint cleared
+[5:619023] kernel: [AMFI] heartbeat ok
+[5:624243] kernel: [Security] no anomalies detected
+[5:653652] kernel: [Haptic] signal acknowledged
+[5:665642] kernel: [APFS] metrics updated
+[5:678346] kernel: [NFC] signal acknowledged
+[5:684579] kernel: [Baseband] wakeup event handled
+[5:714927] kernel: [CPU] queue drained
+[5:729052] kernel: [Display] signal acknowledged
+[5:752549] kernel: [CPU] queue drained
+[5:766160] kernel: [Security] wakeup event handled
+[5:776878] kernel: [IOKit] poll successful
+[5:782075] kernel: [Jetsam] idle cycle complete
+[5:795838] kernel: [Audio] cache refreshed
+[5:801127] kernel: [CPU] status nominal
+[5:834905] kernel: [Thermal] healthcheck passed
+[5:861126] kernel: [Scheduler] poll successful
+[5:877156] kernel: [WiFi] async event handled
+[5:886158] kernel: [NFC] no anomalies detected
+[5:924349] kernel: [Display] healthcheck passed
+[5:939963] kernel: [Sandbox] queue drained
+[5:968748] kernel: [Memory] tick processed
+[5:978938] kernel: [Security] healthcheck passed
+[6:013336] kernel: [Backboard] maintenance pass complete
+[6:033063] kernel: [AMFI] tick processed
+[6:072207] kernel: [AMFI] wakeup event handled
+[6:107641] kernel: [Memory] healthcheck passed
+[6:142870] kernel: [APFS] background task finished
+[6:159332] kernel: [Bluetooth] poll successful
+[6:187487] kernel: [IOKit] signal acknowledged
+[6:208038] kernel: [Display] healthcheck passed
+[6:243518] kernel: [NFC] metrics updated
+[6:272830] kernel: [IOKit] watchpoint cleared
+[6:278276] kernel: [Thermal] queue drained
+[6:309460] kernel: [SpringBoard] queue drained
+[6:343470] kernel: [SpringBoard] healthcheck passed
+[6:349306] kernel: [SpringBoard] queue drained
+[6:373203] kernel: [CPU] queue drained
+[6:390286] kernel: [Sandbox] status nominal
+[6:418827] kernel: [Sandbox] cache refreshed
+[6:447351] kernel: [Scheduler] heartbeat ok
+[6:482108] kernel: [Sandbox] metrics updated
+[6:508338] kernel: [NFC] maintenance pass complete
+[6:514685] kernel: [Backboard] state unchanged
+[6:534552] kernel: [Haptic] wakeup event handled
+[6:543287] kernel: [Scheduler] status nominal
+[6:569412] kernel: [Audio] state unchanged
+[6:576051] kernel: [Scheduler] queue drained
+[6:612765] kernel: [Jetsam] tick processed
+[6:637323] kernel: [WiFi] async event handled
+[6:670174] kernel: [Scheduler] signal acknowledged
+[6:706854] kernel: [Security] queue drained
+[6:743795] kernel: [Display] cache refreshed
+[6:783774] kernel: [IOKit] latency within limits
+[6:791382] kernel: [SpringBoard] signal acknowledged
+[6:827832] kernel: [Security] cache refreshed
+[6:860872] kernel: [Backboard] metrics updated
+[6:894871] kernel: [Memory] status nominal
+[6:901582] kernel: [Audio] queue drained
+[6:930264] kernel: [Jetsam] heartbeat ok
+[6:946913] kernel: [Watchdog] cache refreshed
+[6:957256] kernel: [Touch] maintenance pass complete
+[6:964392] kernel: [Watchdog] signal acknowledged
+[6:984772] kernel: [NFC] power state stable
+[7:009295] kernel: [Memory] queue drained
+[7:043423] kernel: [APFS] no anomalies detected
+[7:059039] kernel: [Memory] tick processed
+[7:087180] kernel: [IOKit] background task finished
+[7:114966] kernel: [Display] tick processed
+[7:146750] kernel: [Display] idle cycle complete
+[7:180959] kernel: [Haptic] signal acknowledged
+[7:192910] kernel: [APFS] latency within limits
+[7:221255] kernel: [IOKit] signal acknowledged
+[7:252750] kernel: [Sandbox] poll successful
+[7:264463] kernel: [Memory] maintenance pass complete
+[7:274458] kernel: [Scheduler] state unchanged
+[7:284747] kernel: [SpringBoard] cache refreshed
+[7:319904] kernel: [Thermal] healthcheck passed
+[7:341611] kernel: [Scheduler] healthcheck passed
+[7:347331] kernel: [Scheduler] tick processed
+[7:356272] kernel: [Baseband] metrics updated
+[7:380680] kernel: [Audio] latency within limits
+[7:415899] kernel: [IOKit] wakeup event handled
+[7:439838] kernel: [Touch] tick processed
+[7:473325] kernel: [Touch] heartbeat ok
+[7:504357] kernel: [APFS] power state stable
+[7:514876] kernel: [Display] heartbeat ok
+[7:542450] kernel: [Touch] async event handled
+[7:561988] kernel: [Jetsam] heartbeat ok
+[7:573356] kernel: [Touch] poll successful
+[7:596071] kernel: [Sandbox] heartbeat ok
+[7:616269] kernel: [WiFi] wakeup event handled
+[7:642412] kernel: [IOKit] wakeup event handled
+[7:676176] kernel: [NFC] idle cycle complete
+[7:684203] kernel: [Watchdog] healthcheck passed
+[7:706849] kernel: [Thermal] power state stable
+[7:729021] kernel: [Audio] state unchanged
+[7:763582] kernel: [Scheduler] power state stable
+[7:771768] kernel: [Touch] heartbeat ok
+[7:781868] kernel: [WiFi] background task finished
+[7:801937] kernel: [Audio] signal acknowledged
+[7:816924] kernel: [Security] heartbeat ok
+[7:849784] kernel: [APFS] state unchanged
+[7:887221] kernel: [Watchdog] healthcheck passed
+[7:911727] kernel: [USB] latency within limits
+[7:933106] kernel: [CPU] queue drained
+[7:954160] kernel: [SpringBoard] power state stable
+[7:988386] kernel: [Audio] idle cycle complete
+[8:007706] kernel: [Jetsam] async event handled
+[8:012920] kernel: [USB] healthcheck passed
+[8:020816] kernel: [Thermal] tick processed
+[8:038007] kernel: [Thermal] status nominal
+[8:066688] kernel: [CPU] poll successful
+[8:098065] kernel: [Bluetooth] latency within limits
+[8:128447] kernel: [Backboard] async event handled
+[8:166011] kernel: [Touch] poll successful
+[8:204026] kernel: [APFS] metrics updated
+[8:211484] kernel: [Audio] signal acknowledged
+[8:226938] kernel: [Baseband] idle cycle complete
+[8:241195] kernel: [Scheduler] state unchanged
+[8:258703] kernel: [Network] watchpoint cleared
+[8:270893] kernel: [AMFI] queue drained
+[8:286481] kernel: [Watchdog] poll successful
+[8:322154] kernel: [Thermal] watchpoint cleared
+[8:338577] kernel: [APFS] watchpoint cleared
+[8:372146] kernel: [Scheduler] cache refreshed
+[8:384582] kernel: [CPU] poll successful
+[8:397473] kernel: [Security] power state stable
+[8:411702] kernel: [Memory] wakeup event handled
+[8:420370] kernel: [Watchdog] cache refreshed
+[8:448586] kernel: [USB] poll successful
+[8:476942] kernel: [Haptic] heartbeat ok
+[8:499078] kernel: [Jetsam] state unchanged
+[8:525753] kernel: [Touch] cache refreshed
+[8:558398] kernel: [Thermal] watchpoint cleared
+[8:569128] kernel: [Bluetooth] signal acknowledged
+[8:576239] kernel: [Network] metrics updated
+[8:581534] kernel: [Security] queue drained
+[8:601098] kernel: [APFS] cache refreshed
+[8:608247] kernel: [Memory] async event handled
+[8:614727] kernel: [AMFI] latency within limits
+[8:645577] kernel: [Bluetooth] maintenance pass complete
+[8:654910] kernel: [Backboard] background task finished
+[8:660331] kernel: [CPU] no anomalies detected
+[8:680516] kernel: [Baseband] latency within limits
+[8:689386] kernel: [Thermal] no anomalies detected
+[8:702318] kernel: [WiFi] heartbeat ok
+[8:730742] kernel: [Haptic] signal acknowledged
+[8:754567] kernel: [Touch] wakeup event handled
+[8:782501] kernel: [CommCenter] cache refreshed
+[8:798046] kernel: [USB] power state stable
+[8:834209] kernel: [Bluetooth] heartbeat ok
+[8:844797] kernel: [Display] healthcheck passed
+[8:851671] kernel: [IOKit] cache refreshed
+[8:858639] kernel: [Touch] maintenance pass complete
+[8:870819] kernel: [IOKit] maintenance pass complete
+[8:893715] kernel: [Baseband] latency within limits
+[8:927693] kernel: [USB] state unchanged
+[8:947101] kernel: [WiFi] watchpoint cleared
+[8:962299] kernel: [Bluetooth] wakeup event handled
+[8:996133] kernel: [Scheduler] no anomalies detected
+[9:021060] kernel: [APFS] cache refreshed
+[9:034426] kernel: [Scheduler] power state stable
+[9:052925] kernel: [CPU] power state stable
+[9:071171] kernel: [Baseband] metrics updated
+[9:106794] kernel: [Haptic] idle cycle complete
+[9:138264] kernel: [IOKit] status nominal
+[9:153782] kernel: [Touch] latency within limits
+[9:174065] kernel: [Audio] signal acknowledged
+[9:191333] kernel: [CPU] watchpoint cleared
+[9:212344] kernel: [Baseband] background task finished
+[9:233011] kernel: [SpringBoard] cache refreshed
+[9:246484] kernel: [CommCenter] healthcheck passed
+[9:267884] kernel: [Sandbox] healthcheck passed
+[9:292077] kernel: [CommCenter] no anomalies detected
+[9:312582] kernel: [Security] idle cycle complete
+[9:330117] kernel: [WiFi] poll successful
+[9:365295] kernel: [Touch] wakeup event handled
+[9:383117] kernel: [AMFI] watchpoint cleared
+[9:416585] kernel: [Jetsam] state unchanged
+[9:447953] kernel: [APFS] watchpoint cleared
+[9:460076] kernel: [APFS] healthcheck passed
+[9:470036] kernel: [CommCenter] wakeup event handled
+[9:486598] kernel: [CommCenter] metrics updated
+[9:514319] kernel: [Audio] maintenance pass complete
+[9:547925] kernel: [APFS] latency within limits
+[9:563106] kernel: [IOKit] wakeup event handled
+[9:589975] kernel: [Bluetooth] state unchanged
+[9:611663] kernel: [AMFI] poll successful
+[9:645463] kernel: [WiFi] queue drained
+[9:663736] kernel: [Jetsam] metrics updated
+[9:678762] kernel: [Display] queue drained
+[9:710140] kernel: [Bluetooth] metrics updated
+[9:743470] kernel: [CPU] async event handled
+[9:751309] kernel: [APFS] background task finished
+[9:785711] kernel: [SpringBoard] background task finished
+[9:810024] kernel: [Memory] power state stable
+[9:832004] kernel: [Backboard] idle cycle complete
+[9:843828] kernel: [USB] latency within limits
+[9:872705] kernel: [AMFI] state unchanged
+[9:894380] kernel: [Touch] background task finished
+[9:915542] kernel: [Display] heartbeat ok
+[9:952467] kernel: [Haptic] wakeup event handled
+[9:964518] kernel: [Bluetooth] no anomalies detected
+[9:996782] kernel: [Bluetooth] power state stable
+[10:011982] kernel: [Bluetooth] queue drained
+[10:027076] kernel: [Watchdog] heartbeat ok
+[10:045890] kernel: [Security] healthcheck passed
+[10:066515] kernel: [Audio] state unchanged
+[10:099595] kernel: [CommCenter] status nominal
+[10:123031] kernel: [Watchdog] cache refreshed
+[10:151362] kernel: [Thermal] latency within limits
+[10:162915] kernel: [IOKit] signal acknowledged
+[10:190734] kernel: [Network] metrics updated
+[10:201422] kernel: [APFS] metrics updated
+[10:232313] kernel: [Backboard] status nominal
+[10:250674] kernel: [CommCenter] idle cycle complete
+[10:283281] kernel: [Memory] tick processed
+[10:299266] kernel: [CommCenter] signal acknowledged
+[10:304611] kernel: [CommCenter] tick processed
+[10:311496] kernel: [Sandbox] tick processed
+[10:328516] kernel: [Backboard] watchpoint cleared
+[10:333987] kernel: [APFS] tick processed
+[10:369573] kernel: [CommCenter] wakeup event handled
+[10:376787] kernel: [IOKit] watchpoint cleared
+[10:399367] kernel: [CPU] power state stable
+[10:425315] kernel: [Bluetooth] poll successful
+[10:449836] kernel: [Scheduler] background task finished
+[10:466534] kernel: [Thermal] background task finished
+[10:492420] kernel: [Backboard] poll successful
+[10:503352] kernel: [Bluetooth] power state stable
+[10:538462] kernel: [Bluetooth] signal acknowledged
+[10:564724] kernel: [Scheduler] heartbeat ok
+[10:587512] kernel: [WiFi] cache refreshed
+[10:597458] kernel: [Thermal] idle cycle complete
+[10:609773] kernel: [Display] heartbeat ok
+[10:629018] kernel: [WiFi] watchpoint cleared
+[10:648403] kernel: [SpringBoard] poll successful
+[10:661357] kernel: [NFC] watchpoint cleared
+[10:700275] kernel: [Security] healthcheck passed
+[10:717538] kernel: [Bluetooth] maintenance pass complete
+[10:753936] kernel: [Scheduler] tick processed
+[10:777314] kernel: [USB] latency within limits
+[10:806389] kernel: [Backboard] poll successful
+[10:832347] kernel: [NFC] power state stable
+[10:844958] kernel: [APFS] signal acknowledged
+[10:875054] kernel: [CPU] signal acknowledged
+[10:899533] kernel: [APFS] poll successful
+[10:915295] kernel: [SpringBoard] healthcheck passed
+[10:953555] kernel: [Baseband] metrics updated
+[10:987604] kernel: [Haptic] metrics updated
+[11:022176] kernel: [IOKit] cache refreshed
+[11:048900] kernel: [Haptic] poll successful
+[11:084838] kernel: [Watchdog] tick processed
+[11:104274] kernel: [Audio] latency within limits
+[11:142439] kernel: [AMFI] state unchanged
+[11:171378] kernel: [Display] idle cycle complete
+[11:210006] kernel: [Haptic] poll successful
+[11:226177] kernel: [APFS] async event handled
+[11:233105] kernel: [Memory] maintenance pass complete
+[11:260671] kernel: [CPU] watchpoint cleared
+[11:296414] kernel: [Display] queue drained
+[11:312636] kernel: [Touch] power state stable
+[11:341787] kernel: [SpringBoard] poll successful
+[11:379849] kernel: [Bluetooth] background task finished
+[11:398388] kernel: [AMFI] maintenance pass complete
+[11:413788] kernel: [USB] async event handled
+[11:449784] kernel: [Audio] state unchanged
+[11:475262] kernel: [Bluetooth] cache refreshed
+[11:483595] kernel: [Audio] maintenance pass complete
+[11:511871] kernel: [WiFi] heartbeat ok
+[11:532923] kernel: [NFC] healthcheck passed
+[11:543520] kernel: [Thermal] healthcheck passed
+[11:553103] kernel: [WiFi] queue drained
+[11:590865] kernel: [Network] signal acknowledged
+[11:629023] kernel: [Sandbox] queue drained
+[11:640565] kernel: [AMFI] status nominal
+[11:653753] kernel: [CPU] wakeup event handled
+[11:675616] kernel: [Sandbox] queue drained
+[11:687875] kernel: [Thermal] status nominal
+[11:694213] kernel: [Network] cache refreshed
+[11:700748] kernel: [Security] no anomalies detected
+[11:736823] kernel: [Audio] no anomalies detected
+[11:776061] kernel: [CPU] signal acknowledged
+[11:796016] kernel: [Display] poll successful
+[11:825366] kernel: [WiFi] signal acknowledged
+[11:832493] kernel: [IOKit] healthcheck passed
+[11:850148] kernel: [Thermal] latency within limits
+[11:869025] kernel: [Sandbox] signal acknowledged
+[11:874027] kernel: [Audio] heartbeat ok
+[11:910712] kernel: [Jetsam] wakeup event handled
+[11:925240] kernel: [Memory] wakeup event handled
+[11:932502] kernel: [WiFi] state unchanged
+[11:949374] kernel: [WiFi] status nominal
+[11:971860] kernel: [Audio] status nominal
+[11:981449] kernel: [Sandbox] idle cycle complete
+[12:014902] kernel: [Touch] status nominal
+[12:030103] kernel: [Backboard] power state stable
+[12:042139] kernel: [Memory] healthcheck passed
+[12:057404] kernel: [Security] poll successful
+[12:088214] kernel: [Display] poll successful
+[12:121421] kernel: [Thermal] poll successful
+[12:155625] kernel: [IOKit] async event handled
+[12:184056] kernel: [USB] power state stable
+[12:197573] kernel: [Network] no anomalies detected
+[12:236773] kernel: [AMFI] heartbeat ok
+[12:275806] kernel: [Jetsam] idle cycle complete
+[12:291966] kernel: [Display] maintenance pass complete
+[12:319729] kernel: [Audio] maintenance pass complete
+[12:342993] kernel: [Security] heartbeat ok
+[12:373119] kernel: [AMFI] wakeup event handled
+[12:394718] kernel: [Audio] wakeup event handled
+[12:426863] kernel: [NFC] metrics updated
+[12:452959] kernel: [Haptic] no anomalies detected
+[12:463306] kernel: [Backboard] idle cycle complete
+[12:474558] kernel: [Touch] maintenance pass complete
+[12:483301] kernel: [USB] maintenance pass complete
+[12:506596] kernel: [Security] heartbeat ok
+[12:546055] kernel: [CPU] latency within limits
+[12:557370] kernel: [Security] idle cycle complete
+[12:581534] kernel: [Scheduler] tick processed
+[12:609219] kernel: [Display] idle cycle complete
+[12:621701] kernel: [Baseband] cache refreshed
+[12:643449] kernel: [Haptic] async event handled
+[12:676867] kernel: [Jetsam] metrics updated
+[12:708010] kernel: [AMFI] healthcheck passed
+[12:726073] kernel: [Audio] signal acknowledged
+[12:761562] kernel: [Watchdog] watchpoint cleared
+[12:798985] kernel: [Backboard] wakeup event handled
+[12:805398] kernel: [Touch] state unchanged
+[12:827040] kernel: [Display] watchpoint cleared
+[12:847347] kernel: [WiFi] idle cycle complete
+[12:860345] kernel: [Memory] background task finished
+[12:892626] kernel: [Jetsam] signal acknowledged
+[12:915970] kernel: [Network] cache refreshed
+[12:941201] kernel: [Haptic] watchpoint cleared
+[12:958055] kernel: [Scheduler] latency within limits
+[12:975686] kernel: [Sandbox] signal acknowledged
+[13:009590] kernel: [Baseband] maintenance pass complete
+[13:023471] kernel: [CPU] metrics updated
+[13:044940] kernel: [IOKit] queue drained
+[13:074825] kernel: [AMFI] watchpoint cleared
+[13:088634] kernel: [Scheduler] tick processed
+[13:120008] kernel: [APFS] cache refreshed
+[13:137410] kernel: [Baseband] watchpoint cleared
+[13:169698] kernel: [Security] state unchanged
+[13:178492] kernel: [AMFI] background task finished
+[13:210239] kernel: [Baseband] status nominal
+[13:235283] kernel: [SpringBoard] poll successful
+[13:257660] kernel: [Baseband] state unchanged
+[13:285912] kernel: [Scheduler] state unchanged
+[13:318858] kernel: [Thermal] watchpoint cleared
+[13:335303] kernel: [USB] signal acknowledged
+[13:357470] kernel: [Security] status nominal
+[13:385814] kernel: [APFS] heartbeat ok
+[13:397223] kernel: [Audio] poll successful
+[13:420331] kernel: [Security] metrics updated
+[13:447408] kernel: [Scheduler] cache refreshed
+[13:462093] kernel: [APFS] maintenance pass complete
+[13:496341] kernel: [SpringBoard] heartbeat ok
+[13:502131] kernel: [AMFI] no anomalies detected
+[13:535126] kernel: [Memory] poll successful
+[13:565933] kernel: [Haptic] async event handled
+[13:602130] kernel: [APFS] poll successful
+[13:626183] kernel: [Audio] heartbeat ok
+[13:646625] kernel: [IOKit] status nominal
+[13:665880] kernel: [Sandbox] async event handled
+[13:689101] kernel: [Jetsam] heartbeat ok
+[13:714116] kernel: [Backboard] wakeup event handled
+[13:733142] kernel: [CPU] latency within limits
+[13:743220] kernel: [APFS] watchpoint cleared
+[13:756136] kernel: [WiFi] idle cycle complete
+[13:772490] kernel: [Scheduler] async event handled
+[13:801266] kernel: [CommCenter] status nominal
+[13:811868] kernel: [IOKit] healthcheck passed
+[13:831381] kernel: [USB] signal acknowledged
+[13:849882] kernel: [Thermal] async event handled
+[13:865663] kernel: [CommCenter] cache refreshed
+[13:892963] kernel: [CPU] idle cycle complete
+[13:931985] kernel: [NFC] background task finished
+[13:953286] kernel: [Watchdog] no anomalies detected
+[13:961866] kernel: [Security] wakeup event handled
+[13:986517] kernel: [Memory] signal acknowledged
+[13:992595] kernel: [NFC] metrics updated
+[14:013446] kernel: [Haptic] poll successful
+[14:049031] kernel: [Network] signal acknowledged
+[14:057422] kernel: [AMFI] watchpoint cleared
+[14:070790] kernel: [USB] healthcheck passed
+[14:091683] kernel: [Security] no anomalies detected
+[14:126507] kernel: [Network] background task finished
+[14:141013] kernel: [Touch] async event handled
+[14:156472] kernel: [SpringBoard] signal acknowledged
+[14:170027] kernel: [Bluetooth] latency within limits
+[14:206187] kernel: [CPU] wakeup event handled
+[14:212710] kernel: [IOKit] power state stable
+[14:240228] kernel: [SpringBoard] status nominal
+[14:251067] kernel: [Network] wakeup event handled
+[14:289761] kernel: [Backboard] status nominal
+[14:295370] kernel: [Haptic] background task finished
+[14:318393] kernel: [Watchdog] healthcheck passed
+[14:349298] kernel: [SpringBoard] tick processed
+[14:388836] kernel: [Memory] watchpoint cleared
+[14:399169] kernel: [SpringBoard] healthcheck passed
+[14:425728] kernel: [Touch] heartbeat ok
+[14:459216] kernel: [NFC] background task finished
+[14:468185] kernel: [USB] background task finished
+[14:508037] kernel: [APFS] heartbeat ok
+[14:523173] kernel: [APFS] no anomalies detected
+[14:560338] kernel: [APFS] tick processed
+[14:566084] kernel: [Network] state unchanged
+[14:593895] kernel: [Backboard] state unchanged
+[14:604821] kernel: [Scheduler] heartbeat ok
+[14:626318] kernel: [Touch] wakeup event handled
+[14:656992] kernel: [Bluetooth] background task finished
+[14:692715] kernel: [Touch] maintenance pass complete
+[14:704372] kernel: [Display] tick processed
+[14:714202] kernel: [Display] signal acknowledged
+[14:743411] kernel: [Sandbox] heartbeat ok
+[14:750459] kernel: [CommCenter] async event handled
+[14:762212] kernel: [Watchdog] tick processed
+[14:798877] kernel: [Touch] async event handled
+[14:825668] kernel: [Thermal] queue drained
+[14:847575] kernel: [WiFi] background task finished
+[14:861167] kernel: [IOKit] heartbeat ok
+[14:887941] kernel: [APFS] no anomalies detected
+[14:896341] kernel: [CommCenter] state unchanged
+[14:922301] kernel: [Jetsam] heartbeat ok
+[14:939307] kernel: [Bluetooth] idle cycle complete
+[14:955598] kernel: [CommCenter] cache refreshed
+[14:985963] kernel: [Memory] cache refreshed
+[14:994079] kernel: [Backboard] maintenance pass complete
+[15:031392] kernel: [Sandbox] queue drained
+[15:053913] kernel: [Baseband] watchpoint cleared
+[15:072577] kernel: [Scheduler] power state stable
+[15:102651] kernel: [Audio] watchpoint cleared
+[15:108848] kernel: [Baseband] wakeup event handled
+[15:143963] kernel: [IOKit] heartbeat ok
+[15:176291] kernel: [Display] healthcheck passed
+[15:191749] kernel: [Baseband] wakeup event handled
+[15:207720] kernel: [Memory] healthcheck passed
+[15:233285] kernel: [CPU] cache refreshed
+[15:259508] kernel: [Touch] healthcheck passed
+[15:271871] kernel: [Audio] state unchanged
+[15:297362] kernel: [Security] tick processed
+[15:310134] kernel: [Watchdog] maintenance pass complete
+[15:315256] kernel: [Sandbox] no anomalies detected
+[15:336812] kernel: [WiFi] maintenance pass complete
+[15:346304] kernel: [APFS] status nominal
+[15:352355] kernel: [CommCenter] metrics updated
+[15:374668] kernel: [SpringBoard] no anomalies detected
+[15:409619] kernel: [Display] cache refreshed
+[15:437083] kernel: [Backboard] status nominal
+[15:472624] kernel: [APFS] background task finished
+[15:500342] kernel: [Display] heartbeat ok
+[15:522874] kernel: [Sandbox] signal acknowledged
+[15:528121] kernel: [Display] wakeup event handled
+[15:561920] kernel: [Watchdog] background task finished
+[15:580960] kernel: [Jetsam] async event handled
+[15:606064] kernel: [Bluetooth] heartbeat ok
+[15:642552] kernel: [Sandbox] state unchanged
+[15:676357] kernel: [Thermal] power state stable
+[15:688718] kernel: [WiFi] wakeup event handled
+[15:719179] kernel: [Thermal] no anomalies detected
+[15:747164] kernel: [Scheduler] watchpoint cleared
+[15:765214] kernel: [Security] idle cycle complete
+[15:797310] kernel: [Network] wakeup event handled
+[15:827878] kernel: [CPU] maintenance pass complete
+[15:836913] kernel: [AMFI] wakeup event handled
+[15:844452] kernel: [WiFi] heartbeat ok
+[15:869217] kernel: [Jetsam] status nominal
+[15:879659] kernel: [Sandbox] maintenance pass complete
+[15:904712] kernel: [AMFI] status nominal
+[15:917325] kernel: [WiFi] async event handled
+[15:948588] kernel: [Bluetooth] background task finished
+[15:974867] kernel: [Display] async event handled
+[16:011468] kernel: [Memory] poll successful
+[16:027193] kernel: [CommCenter] poll successful
+[16:033068] kernel: [Display] maintenance pass complete
+[16:060220] kernel: [Backboard] heartbeat ok
+[16:075578] kernel: [Security] heartbeat ok
+[16:099489] kernel: [AMFI] tick processed
+[16:106570] kernel: [Network] healthcheck passed
+[16:140272] kernel: [Sandbox] async event handled
+[16:145780] kernel: [Audio] power state stable
+[16:184460] kernel: [Watchdog] heartbeat ok
+[16:199927] kernel: [WiFi] healthcheck passed
+[16:207697] kernel: [SpringBoard] healthcheck passed
+[16:227964] kernel: [Bluetooth] signal acknowledged
+[16:238265] kernel: [Jetsam] background task finished
+[16:246569] kernel: [USB] idle cycle complete
+[16:274854] kernel: [Touch] heartbeat ok
+[16:305985] kernel: [Display] watchpoint cleared
+[16:313711] kernel: [Watchdog] status nominal
+[16:325793] kernel: [Baseband] wakeup event handled
+[16:347288] kernel: [Baseband] metrics updated
+[16:366430] kernel: [Network] metrics updated
+[16:382130] kernel: [Scheduler] no anomalies detected
+[16:401064] kernel: [Network] signal acknowledged
+[16:412765] kernel: [USB] no anomalies detected
+[16:450998] kernel: [CPU] idle cycle complete
+[16:460022] kernel: [Bluetooth] latency within limits
+[16:467345] kernel: [Scheduler] poll successful
+[16:492290] kernel: [Sandbox] async event handled
+[16:510787] kernel: [Touch] status nominal
+[16:525816] kernel: [CPU] watchpoint cleared
+[16:543868] kernel: [SpringBoard] state unchanged
+[16:577955] kernel: [APFS] no anomalies detected
+[16:588287] kernel: [CommCenter] cache refreshed
+[16:607196] kernel: [Display] metrics updated
+[16:640739] kernel: [Audio] metrics updated
+[16:648486] kernel: [AMFI] healthcheck passed
+[16:672263] kernel: [Scheduler] async event handled
+[16:697964] kernel: [Touch] async event handled
+[16:713500] kernel: [NFC] state unchanged
+[16:748734] kernel: [AMFI] healthcheck passed
+[16:753949] kernel: [WiFi] latency within limits
+[16:787715] kernel: [Baseband] metrics updated
+[16:826034] kernel: [SpringBoard] watchpoint cleared
+[16:859957] kernel: [Display] idle cycle complete
+[16:887908] kernel: [Bluetooth] poll successful
+[16:909939] kernel: [SpringBoard] no anomalies detected
+[16:931098] kernel: [Jetsam] signal acknowledged
+[16:965902] kernel: [CommCenter] no anomalies detected
+[16:989737] kernel: [Security] maintenance pass complete
+[17:020912] kernel: [CPU] maintenance pass complete
+[17:026764] kernel: [AMFI] maintenance pass complete
+[17:057308] kernel: [Sandbox] latency within limits
+[17:092518] kernel: [Scheduler] latency within limits
+[17:097523] kernel: [USB] heartbeat ok
+[17:106081] kernel: [USB] metrics updated
+[17:144543] kernel: [Bluetooth] tick processed
+[17:181997] kernel: [Haptic] tick processed
+[17:214574] kernel: [IOKit] healthcheck passed
+[17:221802] kernel: [Backboard] poll successful
+[17:235768] kernel: [Watchdog] signal acknowledged
+[17:249475] kernel: [AMFI] poll successful
+[17:273121] kernel: [Memory] maintenance pass complete
+[17:280190] kernel: [Jetsam] signal acknowledged
+[17:311001] kernel: [SpringBoard] no anomalies detected
+[17:331403] kernel: [Backboard] background task finished
+[17:337235] kernel: [Watchdog] heartbeat ok
+[17:369249] kernel: [Audio] latency within limits
+[17:392815] kernel: [Display] healthcheck passed
+[17:409065] kernel: [NFC] power state stable
+[17:416762] kernel: [Bluetooth] status nominal
+[17:437074] kernel: [Sandbox] async event handled
+[17:473375] kernel: [Backboard] cache refreshed
+[17:503971] kernel: [CPU] maintenance pass complete
+[17:527135] kernel: [Baseband] watchpoint cleared
+[17:566138] kernel: [IOKit] no anomalies detected
+[17:592228] kernel: [CommCenter] metrics updated
+[17:614193] kernel: [Baseband] metrics updated
+[17:652580] kernel: [Sandbox] metrics updated
+[17:672239] kernel: [Thermal] no anomalies detected
+[17:707231] kernel: [Jetsam] healthcheck passed
+[17:725771] kernel: [Thermal] no anomalies detected
+[17:744657] kernel: [Memory] signal acknowledged
+[17:775656] kernel: [Scheduler] idle cycle complete
+[17:790748] kernel: [Haptic] latency within limits
+[17:797277] kernel: [Security] state unchanged
+[17:823968] kernel: [Security] heartbeat ok
+[17:853038] kernel: [Scheduler] async event handled
+[17:876356] kernel: [Memory] signal acknowledged
+[17:895641] kernel: [Audio] latency within limits
+[17:916802] kernel: [Network] watchpoint cleared
+[17:924964] kernel: [Touch] watchpoint cleared
+[17:947552] kernel: [Audio] watchpoint cleared
+[17:971779] kernel: [NFC] async event handled
+[17:978069] kernel: [CommCenter] idle cycle complete
+[17:987059] kernel: [Backboard] queue drained
+[18:004866] kernel: [Haptic] async event handled
+[18:040535] kernel: [Thermal] background task finished
+[18:075556] kernel: [IOKit] async event handled
+[18:114345] kernel: [Watchdog] wakeup event handled
+[18:122443] kernel: [Haptic] no anomalies detected
+[18:137311] kernel: [Audio] healthcheck passed
+[18:176666] kernel: [Scheduler] latency within limits
+[18:185927] kernel: [USB] power state stable
+[18:194135] kernel: [Baseband] tick processed
+[18:200475] kernel: [IOKit] state unchanged
+[18:234107] kernel: [CPU] cache refreshed
+[18:267161] kernel: [Thermal] state unchanged
+[18:292313] kernel: [NFC] maintenance pass complete
+[18:322779] kernel: [Security] background task finished
+[18:345784] kernel: [Audio] no anomalies detected
+[18:354614] kernel: [Network] poll successful
+[18:392006] kernel: [IOKit] idle cycle complete
+[18:420106] kernel: [APFS] state unchanged
+[18:432337] kernel: [USB] latency within limits
+[18:462060] kernel: [CommCenter] maintenance pass complete
+[18:474892] kernel: [Watchdog] latency within limits
+[18:489841] kernel: [AMFI] poll successful
+[18:510876] kernel: [Touch] background task finished
+[18:540750] kernel: [CPU] no anomalies detected
+[18:554399] kernel: [APFS] queue drained
+[18:588807] kernel: [NFC] healthcheck passed
+[18:619078] kernel: [CPU] cache refreshed
+[18:652458] kernel: [Touch] signal acknowledged
+[18:661995] kernel: [Scheduler] queue drained
+[18:677332] kernel: [Audio] metrics updated
+[18:692245] kernel: [SpringBoard] cache refreshed
+[18:713837] kernel: [Scheduler] background task finished
+[18:729121] kernel: [Display] queue drained
+[18:758554] kernel: [CPU] wakeup event handled
+[18:787376] kernel: [Sandbox] status nominal
+[18:808999] kernel: [Security] heartbeat ok
+[18:843883] kernel: [Baseband] poll successful
+[18:849585] kernel: [NFC] background task finished
+[18:863676] kernel: [IOKit] background task finished
+[18:874749] kernel: [Audio] poll successful
+[18:880147] kernel: [Bluetooth] idle cycle complete
+[18:909942] kernel: [Memory] latency within limits
+[18:941853] kernel: [Backboard] no anomalies detected
+[18:950489] kernel: [Thermal] heartbeat ok
+[18:974855] kernel: [CPU] async event handled
+[18:987262] kernel: [Baseband] idle cycle complete
+[19:002705] kernel: [Security] poll successful
+[19:025730] kernel: [Network] signal acknowledged
+[19:056465] kernel: [APFS] healthcheck passed
+[19:082546] kernel: [Thermal] idle cycle complete
+[19:117204] kernel: [Scheduler] no anomalies detected
+[19:147053] kernel: [Backboard] background task finished
+[19:156897] kernel: [SpringBoard] watchpoint cleared
+[19:180305] kernel: [SpringBoard] status nominal
+[19:195138] kernel: [Watchdog] queue drained
+[19:218841] kernel: [NFC] wakeup event handled
+[19:228976] kernel: [USB] power state stable
+[19:242307] kernel: [CommCenter] background task finished
+[19:263697] kernel: [Network] poll successful
+[19:280530] kernel: [WiFi] heartbeat ok
+[19:300634] kernel: [Haptic] latency within limits
+[19:309954] kernel: [Watchdog] latency within limits
+[19:320043] kernel: [Watchdog] heartbeat ok
+[19:356542] kernel: [Bluetooth] watchpoint cleared
+[19:369592] kernel: [CPU] poll successful
+[19:398053] kernel: [APFS] wakeup event handled
+[19:428717] kernel: [Scheduler] heartbeat ok
+[19:445758] kernel: [Thermal] signal acknowledged
+[19:473099] kernel: [USB] heartbeat ok
+[19:509186] kernel: [Backboard] latency within limits
+[19:522376] kernel: [Memory] watchpoint cleared
+[19:529883] kernel: [CommCenter] no anomalies detected
+[19:547000] kernel: [Jetsam] poll successful
+[19:562922] kernel: [CPU] poll successful
+[19:599379] kernel: [USB] async event handled
+[19:633352] kernel: [APFS] async event handled
+[19:654702] kernel: [Network] cache refreshed
+[19:690222] kernel: [Sandbox] idle cycle complete
+[19:721522] kernel: [IOKit] queue drained
+[19:748762] kernel: [Audio] signal acknowledged
+[19:777508] kernel: [Thermal] maintenance pass complete
+[19:783007] kernel: [Backboard] state unchanged
+[19:800060] kernel: [Sandbox] healthcheck passed
+[19:836304] kernel: [SpringBoard] state unchanged
+[19:849913] kernel: [AMFI] status nominal
+[19:867432] kernel: [NFC] poll successful
+[19:904031] kernel: [Bluetooth] healthcheck passed
+[19:909374] kernel: [Touch] poll successful
+[19:920703] kernel: [Display] cache refreshed
+[19:954875] kernel: [Backboard] metrics updated
+[19:992074] kernel: [Scheduler] status nominal
+[20:003973] kernel: [Thermal] no anomalies detected
+[20:023382] kernel: [WiFi] latency within limits
+[20:030307] kernel: [AMFI] poll successful
+[20:065411] kernel: [Haptic] metrics updated
+[20:082031] kernel: [Network] healthcheck passed
+[20:090149] kernel: [SpringBoard] signal acknowledged
+[20:105829] kernel: [NFC] wakeup event handled
+[20:136349] kernel: [Watchdog] signal acknowledged
+[20:151565] kernel: [Bluetooth] heartbeat ok
+[20:179589] kernel: [Jetsam] cache refreshed
+[20:213597] kernel: [Scheduler] tick processed
+[20:222136] kernel: [Jetsam] background task finished
+[20:237452] kernel: [Thermal] cache refreshed
+[20:270243] kernel: [AMFI] status nominal
+[20:287164] kernel: [Jetsam] poll successful
+[20:300175] kernel: [Touch] cache refreshed
+[20:316939] kernel: [Bluetooth] tick processed
+[20:354554] kernel: [CPU] background task finished
+[20:390247] kernel: [USB] heartbeat ok
+[20:415774] kernel: [Display] background task finished
+[20:441996] kernel: [APFS] wakeup event handled
+[20:452477] kernel: [Scheduler] state unchanged
+[20:468222] kernel: [Thermal] wakeup event handled
+[20:475829] kernel: [Network] power state stable
+[20:509385] kernel: [APFS] idle cycle complete
+[20:525963] kernel: [Watchdog] idle cycle complete
+[20:553555] kernel: [Jetsam] state unchanged
+[20:568534] kernel: [IOKit] latency within limits
+[20:585328] kernel: [APFS] cache refreshed
+[20:595181] kernel: [Audio] cache refreshed
+[20:622638] kernel: [USB] state unchanged
+[20:645467] kernel: [Sandbox] no anomalies detected
+[20:669675] kernel: [Network] no anomalies detected
+[20:677001] kernel: [Audio] status nominal
+[20:692247] kernel: [Scheduler] no anomalies detected
+[20:718549] kernel: [CPU] heartbeat ok
+[20:744000] kernel: [Touch] background task finished
+[20:752388] kernel: [APFS] watchpoint cleared
+[20:770914] kernel: [Memory] background task finished
+[20:801318] kernel: [Display] idle cycle complete
+[20:829690] kernel: [Touch] queue drained
+[20:840273] kernel: [Scheduler] maintenance pass complete
+[20:872959] kernel: [Baseband] status nominal
+[20:912652] kernel: [Thermal] cache refreshed
+[20:945235] kernel: [SpringBoard] no anomalies detected
+[20:974414] kernel: [Jetsam] state unchanged
+[20:982992] kernel: [APFS] idle cycle complete
+[21:019904] kernel: [Jetsam] metrics updated
+[21:049280] kernel: [Jetsam] background task finished
+[21:059083] kernel: [Scheduler] status nominal
+[21:088214] kernel: [Backboard] status nominal
+[21:115970] kernel: [Network] signal acknowledged
+[21:133961] kernel: [Sandbox] background task finished
+[21:140355] kernel: [WiFi] power state stable
+[21:170786] kernel: [Thermal] idle cycle complete
+[21:181302] kernel: [Scheduler] state unchanged
+[21:215031] kernel: [Audio] state unchanged
+[21:244239] kernel: [Thermal] watchpoint cleared
+[21:277594] kernel: [Backboard] no anomalies detected
+[21:309993] kernel: [Scheduler] queue drained
+[21:323249] kernel: [Haptic] heartbeat ok
+[21:359326] kernel: [Thermal] maintenance pass complete
+[21:372295] kernel: [CommCenter] poll successful
+[21:386971] kernel: [Jetsam] async event handled
+[21:414037] kernel: [WiFi] state unchanged
+[21:425711] kernel: [WiFi] state unchanged
+[21:461432] kernel: [Bluetooth] healthcheck passed
+[21:491057] kernel: [Backboard] status nominal
+[21:525711] kernel: [SpringBoard] async event handled
+[21:549329] kernel: [Scheduler] metrics updated
+[21:577123] kernel: [Audio] poll successful
+[21:600419] kernel: [Audio] maintenance pass complete
+[21:617120] kernel: [IOKit] idle cycle complete
+[21:639505] kernel: [Bluetooth] metrics updated
+[21:648667] kernel: [Audio] status nominal
+[21:677940] kernel: [Thermal] tick processed
+[21:695983] kernel: [Baseband] healthcheck passed
+[21:717382] kernel: [CommCenter] power state stable
+[21:732450] kernel: [WiFi] no anomalies detected
+[21:756690] kernel: [NFC] status nominal
+[21:764556] kernel: [Bluetooth] maintenance pass complete
+[21:788452] kernel: [Sandbox] background task finished
+[21:796419] kernel: [Baseband] latency within limits
+[21:820379] kernel: [Sandbox] heartbeat ok
+[21:850533] kernel: [Thermal] power state stable
+[21:882223] kernel: [Touch] latency within limits
+[21:905939] kernel: [Thermal] watchpoint cleared
+[21:918533] kernel: [Display] idle cycle complete
+[21:941846] kernel: [AMFI] state unchanged
+[21:969733] kernel: [Baseband] poll successful
+[22:000554] kernel: [Sandbox] latency within limits
+[22:030449] kernel: [Audio] latency within limits
+[22:059291] kernel: [Display] power state stable
+[22:065987] kernel: [Network] wakeup event handled
+[22:103293] kernel: [Sandbox] power state stable
+[22:112480] kernel: [AMFI] metrics updated
+[22:118185] kernel: [IOKit] no anomalies detected
+[22:150399] kernel: [Bluetooth] no anomalies detected
+[22:181350] kernel: [Sandbox] status nominal
+[22:213866] kernel: [CommCenter] watchpoint cleared
+[22:231291] kernel: [Touch] idle cycle complete
+[22:247964] kernel: [Sandbox] power state stable
+[22:285143] kernel: [Network] tick processed
+[22:298268] kernel: [Haptic] signal acknowledged
+[22:335121] kernel: [Backboard] watchpoint cleared
+[22:350297] kernel: [Audio] idle cycle complete
+[22:356786] kernel: [Sandbox] tick processed
+[22:362949] kernel: [AMFI] poll successful
+[22:382862] kernel: [WiFi] status nominal
+[22:402687] kernel: [Backboard] signal acknowledged
+[22:415131] kernel: [CommCenter] queue drained
+[22:448032] kernel: [Bluetooth] healthcheck passed
+[22:460297] kernel: [IOKit] status nominal
+[22:495384] kernel: [Backboard] tick processed
+[22:519891] kernel: [Sandbox] maintenance pass complete
+[22:529923] kernel: [USB] status nominal
+[22:569427] kernel: [Security] async event handled
+[22:608539] kernel: [WiFi] metrics updated
+[22:640808] kernel: [WiFi] background task finished
+[22:664479] kernel: [NFC] power state stable
+[22:696001] kernel: [APFS] poll successful
+[22:724629] kernel: [Security] cache refreshed
+[22:756906] kernel: [SpringBoard] latency within limits
+[22:793985] kernel: [CPU] heartbeat ok
+[22:825537] kernel: [Watchdog] wakeup event handled
+[22:851505] kernel: [USB] async event handled
+[22:858178] kernel: [APFS] poll successful
+[22:889400] kernel: [Thermal] latency within limits
+[22:901677] kernel: [WiFi] metrics updated
+[22:938367] kernel: [Network] healthcheck passed
+[22:961959] kernel: [Network] state unchanged
+[22:974061] kernel: [NFC] async event handled
+[22:985048] kernel: [Haptic] queue drained
+[23:004894] kernel: [Bluetooth] async event handled
+[23:035550] kernel: [AMFI] watchpoint cleared
+[23:068686] kernel: [USB] tick processed
+[23:105590] kernel: [Touch] heartbeat ok
+[23:116607] kernel: [Watchdog] signal acknowledged
+[23:132378] kernel: [Network] heartbeat ok
+[23:137677] kernel: [Bluetooth] state unchanged
+[23:149894] kernel: [Haptic] tick processed
+[23:178531] kernel: [Display] tick processed
+[23:211692] kernel: [Security] background task finished
+[23:246819] kernel: [AMFI] heartbeat ok
+[23:265767] kernel: [Bluetooth] heartbeat ok
+[23:298266] kernel: [Thermal] healthcheck passed
+[23:305132] kernel: [USB] cache refreshed
+[23:316116] kernel: [APFS] latency within limits
+[23:347481] kernel: [Baseband] status nominal
+[23:373070] kernel: [Jetsam] status nominal
+[23:384978] kernel: [Haptic] healthcheck passed
+[23:406500] kernel: [Haptic] queue drained
+[23:444202] kernel: [IOKit] no anomalies detected
+[23:460537] kernel: [CPU] watchpoint cleared
+[23:479806] kernel: [Thermal] tick processed
+[23:519714] kernel: [NFC] cache refreshed
+[23:525655] kernel: [APFS] power state stable
+[23:556226] kernel: [USB] latency within limits
+[23:580673] kernel: [NFC] background task finished
+[23:592117] kernel: [Display] state unchanged
+[23:621842] kernel: [IOKit] metrics updated
+[23:645205] kernel: [SpringBoard] queue drained
+[23:674939] kernel: [WiFi] metrics updated
+[23:694303] kernel: [AMFI] async event handled
+[23:705072] kernel: [Display] status nominal
+[23:713513] kernel: [IOKit] no anomalies detected
+[23:724506] kernel: [WiFi] healthcheck passed
+[23:734499] kernel: [Scheduler] wakeup event handled
+[23:744613] kernel: [Watchdog] idle cycle complete
+[23:757450] kernel: [Baseband] maintenance pass complete
+[23:768799] kernel: [Haptic] no anomalies detected
+[23:802823] kernel: [Backboard] wakeup event handled
+[23:832000] kernel: [Audio] healthcheck passed
+[23:849377] kernel: [CommCenter] maintenance pass complete
+[23:862264] kernel: [AMFI] async event handled
+[23:901208] kernel: [Baseband] healthcheck passed
+[23:910457] kernel: [Touch] signal acknowledged
+[23:946231] kernel: [Watchdog] healthcheck passed
+[23:968538] kernel: [Memory] poll successful
+[23:999963] kernel: [APFS] idle cycle complete
+[24:025143] kernel: [Security] healthcheck passed
+[24:048860] kernel: [NFC] status nominal
+[24:066202] kernel: [Thermal] no anomalies detected
+[24:074765] kernel: [APFS] power state stable
+[24:088329] kernel: [Backboard] latency within limits
+[24:098048] kernel: [Bluetooth] maintenance pass complete
+[24:129752] kernel: [Display] no anomalies detected
+[24:162874] kernel: [USB] latency within limits
+[24:174651] kernel: [Sandbox] heartbeat ok
+[24:183470] kernel: [Audio] watchpoint cleared
+[24:212529] kernel: [Network] latency within limits
+[24:249133] kernel: [CommCenter] idle cycle complete
+[24:254690] kernel: [NFC] maintenance pass complete
+[24:260699] kernel: [Watchdog] idle cycle complete
+[24:267031] kernel: [Memory] async event handled
+[24:302442] kernel: [IOKit] queue drained
+[24:322277] kernel: [Security] maintenance pass complete
+[24:356004] kernel: [SpringBoard] maintenance pass complete
+[24:372021] kernel: [AMFI] idle cycle complete
+[24:401746] kernel: [Baseband] no anomalies detected
+[24:409323] kernel: [SpringBoard] background task finished
+[24:418077] kernel: [Display] queue drained
+[24:426980] kernel: [AMFI] tick processed
+[24:453999] kernel: [IOKit] wakeup event handled
+[24:477568] kernel: [Bluetooth] metrics updated
+[24:517504] kernel: [AMFI] no anomalies detected
+[24:538148] kernel: [Thermal] poll successful
+[24:553121] kernel: [APFS] healthcheck passed
+[24:576815] kernel: [Network] tick processed
+[24:596564] kernel: [Haptic] state unchanged
+[24:632392] kernel: [APFS] async event handled
+[24:663779] kernel: [Audio] metrics updated
+[24:675248] kernel: [AMFI] maintenance pass complete
+[24:692767] kernel: [CommCenter] maintenance pass complete
+[24:699758] kernel: [WiFi] tick processed
+[24:709623] kernel: [WiFi] async event handled
+[24:729331] kernel: [Thermal] latency within limits
+[24:769218] kernel: [Bluetooth] cache refreshed
+[24:778432] kernel: [Network] heartbeat ok
+[24:794376] kernel: [Display] healthcheck passed
+[24:813198] kernel: [Display] watchpoint cleared
+[24:818590] kernel: [Baseband] background task finished
+[24:852183] kernel: [APFS] heartbeat ok
+[24:858678] kernel: [NFC] wakeup event handled
+[24:873030] kernel: [Watchdog] power state stable
+[24:893143] kernel: [SpringBoard] wakeup event handled
+[24:906456] kernel: [Baseband] status nominal
+[24:942079] kernel: [SpringBoard] no anomalies detected
+[24:980001] kernel: [Jetsam] signal acknowledged
+[25:005376] kernel: [Watchdog] heartbeat ok
+[25:042848] kernel: [Watchdog] maintenance pass complete
+[25:068398] kernel: [Baseband] background task finished
+[25:077141] kernel: [WiFi] state unchanged
+[25:113813] kernel: [USB] tick processed
+[25:138838] kernel: [USB] maintenance pass complete
+[25:178742] kernel: [IOKit] healthcheck passed
+[25:202494] kernel: [Memory] wakeup event handled
+[25:241467] kernel: [Network] latency within limits
+[25:261252] kernel: [SpringBoard] background task finished
+[25:297198] kernel: [Baseband] watchpoint cleared
+[25:312674] kernel: [Touch] heartbeat ok
+[25:325723] kernel: [CommCenter] signal acknowledged
+[25:345648] kernel: [Network] async event handled
+[25:373734] kernel: [APFS] background task finished
+[25:410869] kernel: [Scheduler] no anomalies detected
+[25:449363] kernel: [Memory] background task finished
+[25:467859] kernel: [Backboard] idle cycle complete
+[25:502647] kernel: [Memory] cache refreshed
+[25:516576] kernel: [Audio] no anomalies detected
+[25:549374] kernel: [AMFI] signal acknowledged
+[25:578196] kernel: [USB] idle cycle complete
+[25:611807] kernel: [Display] state unchanged
+[25:618092] kernel: [Baseband] state unchanged
+[25:625620] kernel: [CommCenter] power state stable
+[25:662631] kernel: [Scheduler] background task finished
+[25:683654] kernel: [Baseband] signal acknowledged
+[25:717171] kernel: [Baseband] healthcheck passed
+[25:746632] kernel: [Jetsam] status nominal
+[25:767371] kernel: [Watchdog] status nominal
+[25:780995] kernel: [Baseband] heartbeat ok
+[25:800737] kernel: [Audio] tick processed
+[25:839927] kernel: [APFS] status nominal
+[25:855261] kernel: [SpringBoard] healthcheck passed
+[25:879816] kernel: [Jetsam] latency within limits
+[25:891061] kernel: [Watchdog] heartbeat ok
+[25:900195] kernel: [Memory] state unchanged
+[25:920198] kernel: [Watchdog] wakeup event handled
+[25:939060] kernel: [Audio] healthcheck passed
+[25:951571] kernel: [Bluetooth] async event handled
+[25:988365] kernel: [Network] wakeup event handled
+[26:010105] kernel: [Memory] watchpoint cleared
+[26:037730] kernel: [Backboard] metrics updated
+[26:077699] kernel: [Backboard] idle cycle complete
+[26:098585] kernel: [APFS] power state stable
+[26:136020] kernel: [CommCenter] background task finished
+[26:155611] kernel: [Sandbox] wakeup event handled
+[26:163752] kernel: [CPU] no anomalies detected
+[26:192957] kernel: [Memory] idle cycle complete
+[26:218847] kernel: [Watchdog] cache refreshed
+[26:234176] kernel: [CommCenter] no anomalies detected
+[26:248961] kernel: [CommCenter] tick processed
+[26:273057] kernel: [Bluetooth] poll successful
+[26:302167] kernel: [Watchdog] poll successful
+[26:311356] kernel: [Watchdog] status nominal
+[26:334495] kernel: [NFC] cache refreshed
+[26:373337] kernel: [Audio] power state stable
+[26:400005] kernel: [Display] queue drained
+[26:421448] kernel: [Haptic] no anomalies detected
+[26:450155] kernel: [WiFi] queue drained
+[26:468779] kernel: [Security] queue drained
+[26:502081] kernel: [AMFI] cache refreshed
+[26:516929] kernel: [Network] signal acknowledged
+[26:537221] kernel: [Memory] idle cycle complete
+[26:564807] kernel: [Bluetooth] no anomalies detected
+[26:603764] kernel: [Watchdog] background task finished
+[26:609340] kernel: [Bluetooth] tick processed
+[26:615518] kernel: [WiFi] wakeup event handled
+[26:622666] kernel: [USB] status nominal
+[26:629202] kernel: [Watchdog] status nominal
+[26:634817] kernel: [Network] watchpoint cleared
+[26:649486] kernel: [Thermal] no anomalies detected
+[26:656793] kernel: [Network] no anomalies detected
+[26:683934] kernel: [Watchdog] maintenance pass complete
+[26:714166] kernel: [Audio] healthcheck passed
+[26:749867] kernel: [Network] metrics updated
+[26:758182] kernel: [CommCenter] idle cycle complete
+[26:794435] kernel: [Thermal] cache refreshed
+[26:813972] kernel: [Touch] cache refreshed
+[26:826964] kernel: [Display] heartbeat ok
+[26:839506] kernel: [USB] watchpoint cleared
+[26:855430] kernel: [Touch] healthcheck passed
+[26:880655] kernel: [SpringBoard] tick processed
+[26:907354] kernel: [Backboard] queue drained
+[26:927388] kernel: [Baseband] cache refreshed
+[26:943825] kernel: [USB] wakeup event handled
+[26:973080] kernel: [SpringBoard] idle cycle complete
+[27:007419] kernel: [Scheduler] no anomalies detected
+[27:042599] kernel: [Haptic] async event handled
+[27:082466] kernel: [CPU] heartbeat ok
+[27:089445] kernel: [Baseband] maintenance pass complete
+[27:118526] kernel: [WiFi] poll successful
+[27:140947] kernel: [Jetsam] queue drained
+[27:162511] kernel: [Audio] maintenance pass complete
+[27:172976] kernel: [Network] heartbeat ok
+[27:187015] kernel: [NFC] async event handled
+[27:220792] kernel: [Audio] background task finished
+[27:229609] kernel: [Thermal] heartbeat ok
+[27:241634] kernel: [CPU] background task finished
+[27:274756] kernel: [IOKit] no anomalies detected
+[27:298723] kernel: [Memory] watchpoint cleared
+[27:320865] kernel: [CommCenter] tick processed
+[27:342201] kernel: [Thermal] poll successful
+[27:358469] kernel: [SpringBoard] poll successful
+[27:390262] kernel: [IOKit] state unchanged
+[27:395992] kernel: [APFS] metrics updated
+[27:412451] kernel: [Bluetooth] metrics updated
+[27:450619] kernel: [Touch] cache refreshed
+[27:472295] kernel: [NFC] cache refreshed
+[27:500244] kernel: [Bluetooth] heartbeat ok
+[27:513502] kernel: [IOKit] wakeup event handled
+[27:518532] kernel: [CPU] status nominal
+[27:530055] kernel: [USB] async event handled
+[27:550186] kernel: [AMFI] latency within limits
+[27:586895] kernel: [Watchdog] status nominal
+[27:622233] kernel: [CPU] heartbeat ok
+[27:631452] kernel: [NFC] healthcheck passed
+[27:659205] kernel: [SpringBoard] status nominal
+[27:683141] kernel: [NFC] tick processed
+[27:706187] kernel: [Backboard] state unchanged
+[27:711709] kernel: [Security] signal acknowledged
+[27:738242] kernel: [Security] watchpoint cleared
+[27:767384] kernel: [APFS] cache refreshed
+[27:784280] kernel: [CommCenter] cache refreshed
+[27:813276] kernel: [SpringBoard] watchpoint cleared
+[27:818300] kernel: [CPU] no anomalies detected
+[27:824209] kernel: [Display] async event handled
+[27:837413] kernel: [APFS] status nominal
+[27:843835] kernel: [APFS] queue drained
+[27:878211] kernel: [CPU] heartbeat ok
+[27:896026] kernel: [WiFi] no anomalies detected
+[27:935687] kernel: [Security] queue drained
+[27:974748] kernel: [Baseband] status nominal
+[27:982120] kernel: [Backboard] signal acknowledged
+[28:008847] kernel: [USB] state unchanged
+[28:045873] kernel: [Audio] signal acknowledged
+[28:085419] kernel: [Network] wakeup event handled
+[28:102684] kernel: [Sandbox] heartbeat ok
+[28:140946] kernel: [Jetsam] maintenance pass complete
+[28:170129] kernel: [Watchdog] idle cycle complete
+[28:190191] kernel: [USB] signal acknowledged
+[28:216940] kernel: [CPU] async event handled
+[28:247944] kernel: [AMFI] cache refreshed
+[28:286822] kernel: [Sandbox] queue drained
+[28:316961] kernel: [AMFI] tick processed
+[28:340108] kernel: [CPU] background task finished
+[28:355756] kernel: [APFS] no anomalies detected
+[28:394139] kernel: [Watchdog] tick processed
+[28:400558] kernel: [NFC] tick processed
+[28:425428] kernel: [AMFI] status nominal
+[28:448837] kernel: [Network] idle cycle complete
+[28:462837] kernel: [Display] healthcheck passed
+[28:469926] kernel: [Memory] latency within limits
+[28:500606] kernel: [NFC] queue drained
+[28:524984] kernel: [CPU] no anomalies detected
+[28:533192] kernel: [Display] metrics updated
+[28:572678] kernel: [USB] poll successful
+[28:582658] kernel: [USB] status nominal
+[28:600269] kernel: [Bluetooth] cache refreshed
+[28:611703] kernel: [Sandbox] queue drained
+[28:639856] kernel: [Watchdog] wakeup event handled
+[28:657329] kernel: [Haptic] metrics updated
+[28:671663] kernel: [WiFi] idle cycle complete
+[28:679240] kernel: [Watchdog] signal acknowledged
+[28:697821] kernel: [Bluetooth] metrics updated
+[28:720731] kernel: [IOKit] metrics updated
+[28:741640] kernel: [NFC] metrics updated
+[28:763185] kernel: [CPU] signal acknowledged
+[28:788100] kernel: [Display] maintenance pass complete
+[28:805060] kernel: [Network] watchpoint cleared
+[28:822616] kernel: [USB] poll successful
+[28:844378] kernel: [USB] async event handled
+[28:854056] kernel: [IOKit] no anomalies detected
+[28:881517] kernel: [WiFi] signal acknowledged
+[28:901512] kernel: [Backboard] no anomalies detected
+[28:919887] kernel: [NFC] no anomalies detected
+[28:955824] kernel: [AMFI] background task finished
+[28:961478] kernel: [CPU] cache refreshed
+[28:999191] kernel: [Security] background task finished
+[29:006718] kernel: [Security] latency within limits
+[29:027124] kernel: [Audio] power state stable
+[29:061193] kernel: [Thermal] signal acknowledged
+[29:081061] kernel: [Bluetooth] heartbeat ok
+[29:109552] kernel: [Touch] healthcheck passed
+[29:129825] kernel: [Security] maintenance pass complete
+[29:150294] kernel: [Baseband] queue drained
+[29:159360] kernel: [IOKit] state unchanged
+[29:167763] kernel: [IOKit] queue drained
+[29:197430] kernel: [Watchdog] wakeup event handled
+[29:234257] kernel: [APFS] power state stable
+[29:252721] kernel: [NFC] heartbeat ok
+[29:263825] kernel: [WiFi] heartbeat ok
+[29:302539] kernel: [Jetsam] signal acknowledged
+[29:334935] kernel: [Sandbox] tick processed
+[29:374890] kernel: [Backboard] latency within limits
+[29:383029] kernel: [Watchdog] maintenance pass complete
+[29:415485] kernel: [Jetsam] idle cycle complete
+[29:436442] kernel: [Watchdog] latency within limits
+[29:464921] kernel: [Baseband] status nominal
+[29:474944] kernel: [Memory] no anomalies detected
+[29:498310] kernel: [NFC] state unchanged
+[29:518360] kernel: [Scheduler] async event handled
+[29:549474] kernel: [Haptic] power state stable
+[29:565308] kernel: [WiFi] queue drained
+[29:599937] kernel: [SpringBoard] wakeup event handled
+[29:611561] kernel: [CPU] idle cycle complete
+[29:648194] kernel: [NFC] wakeup event handled
+[29:673632] kernel: [APFS] cache refreshed
+[29:702741] kernel: [USB] watchpoint cleared
+[29:729162] kernel: [Security] cache refreshed
+[29:745258] kernel: [Baseband] healthcheck passed
+[29:779589] kernel: [Thermal] heartbeat ok
+[29:811301] kernel: [CommCenter] idle cycle complete
+[29:831463] kernel: [IOKit] state unchanged
+[29:856069] kernel: [Bluetooth] idle cycle complete
+[29:879343] kernel: [Network] background task finished
+[29:918514] kernel: [USB] watchpoint cleared
+[29:924277] kernel: [Sandbox] poll successful
+[29:962334] kernel: [AMFI] tick processed
+[29:981228] kernel: [Touch] queue drained
+[30:008689] kernel: [Memory] async event handled
+[30:020358] kernel: [NFC] idle cycle complete
+[30:031076] kernel: [Backboard] signal acknowledged
+[30:056480] kernel: [Baseband] metrics updated
+[30:065873] kernel: [Audio] signal acknowledged
+[30:092553] kernel: [IOKit] cache refreshed
+[30:113939] kernel: [Touch] maintenance pass complete
+[30:142281] kernel: [Security] idle cycle complete
+[30:159241] kernel: [Jetsam] idle cycle complete
+[30:192687] kernel: [Watchdog] healthcheck passed
+[30:229637] kernel: [Network] power state stable
+[30:249199] kernel: [Audio] background task finished
+[30:271695] kernel: [Scheduler] signal acknowledged
+[30:295340] kernel: [NFC] signal acknowledged
+[30:310085] kernel: [NFC] wakeup event handled
+[30:327606] kernel: [IOKit] maintenance pass complete
+[30:360545] kernel: [Baseband] healthcheck passed
+[30:394110] kernel: [NFC] status nominal
+[30:408688] kernel: [Display] latency within limits
+[30:434169] kernel: [NFC] state unchanged
+[30:466277] kernel: [USB] wakeup event handled
+[30:489266] kernel: [Watchdog] idle cycle complete
+[30:520346] kernel: [Thermal] cache refreshed
+[30:548080] kernel: [USB] state unchanged
+[30:561423] kernel: [Memory] heartbeat ok
+[30:593051] kernel: [SpringBoard] async event handled
+[30:613783] kernel: [USB] cache refreshed
+[30:626033] kernel: [Audio] idle cycle complete
+[30:661199] kernel: [CPU] signal acknowledged
+[30:690894] kernel: [Network] wakeup event handled
+[30:696482] kernel: [Network] idle cycle complete
+[30:735339] kernel: [Backboard] poll successful
+[30:766410] kernel: [Display] healthcheck passed
+[30:802698] kernel: [Touch] heartbeat ok
+[30:840619] kernel: [Memory] poll successful
+[30:877044] kernel: [Watchdog] tick processed
+[30:893639] kernel: [Display] healthcheck passed
+[30:929898] kernel: [Bluetooth] state unchanged
+[30:967922] kernel: [AMFI] watchpoint cleared
+[30:974071] kernel: [Baseband] healthcheck passed
+[30:981312] kernel: [Sandbox] metrics updated
+[30:995410] kernel: [CPU] state unchanged
+[31:019414] kernel: [NFC] wakeup event handled
+[31:054657] kernel: [Baseband] status nominal
+[31:069735] kernel: [Touch] cache refreshed
+[31:102295] kernel: [AMFI] metrics updated
+[31:117726] kernel: [USB] background task finished
+[31:134754] kernel: [Thermal] status nominal
+[31:154998] kernel: [CPU] healthcheck passed
+[31:168562] kernel: [Security] maintenance pass complete
+[31:182506] kernel: [AMFI] status nominal
+[31:194739] kernel: [Sandbox] async event handled
+[31:213267] kernel: [IOKit] queue drained
+[31:250753] kernel: [Backboard] latency within limits
+[31:265383] kernel: [Touch] async event handled
+[31:294036] kernel: [AMFI] metrics updated
+[31:302527] kernel: [Jetsam] power state stable
+[31:337546] kernel: [Jetsam] state unchanged
+[31:372816] kernel: [Memory] power state stable
+[31:399805] kernel: [IOKit] queue drained
+[31:409521] kernel: [CommCenter] heartbeat ok
+[31:440266] kernel: [Audio] cache refreshed
+[31:474782] kernel: [Audio] queue drained
+[31:485674] kernel: [Sandbox] watchpoint cleared
+[31:521556] kernel: [Audio] power state stable
+[31:546631] kernel: [APFS] maintenance pass complete
+[31:582120] kernel: [Security] signal acknowledged
+[31:609799] kernel: [Memory] metrics updated
+[31:619216] kernel: [CommCenter] cache refreshed
+[31:651615] kernel: [Memory] no anomalies detected
+[31:689933] kernel: [NFC] cache refreshed
+[31:709713] kernel: [Memory] latency within limits
+[31:742428] kernel: [Display] cache refreshed
+[31:765656] kernel: [Jetsam] latency within limits
+[31:793166] kernel: [CPU] heartbeat ok
+[31:827058] kernel: [Scheduler] async event handled
+[31:832543] kernel: [Haptic] status nominal
+[31:841765] kernel: [CommCenter] latency within limits
+[31:863201] kernel: [Bluetooth] idle cycle complete
+[31:896660] kernel: [Audio] healthcheck passed
+[31:932917] kernel: [IOKit] latency within limits
+[31:943919] kernel: [APFS] queue drained
+[31:974155] kernel: [Display] state unchanged
+[31:998078] kernel: [CPU] background task finished
+[32:034990] kernel: [IOKit] background task finished
+[32:068814] kernel: [Network] wakeup event handled
+[32:106646] kernel: [NFC] watchpoint cleared
+[32:145515] kernel: [CommCenter] status nominal
+[32:161897] kernel: [Baseband] maintenance pass complete
+[32:172722] kernel: [Watchdog] status nominal
+[32:185437] kernel: [Display] no anomalies detected
+[32:213649] kernel: [Display] watchpoint cleared
+[32:228790] kernel: [Haptic] watchpoint cleared
+[32:265800] kernel: [APFS] metrics updated
+[32:294116] kernel: [Baseband] no anomalies detected
+[32:317929] kernel: [USB] cache refreshed
+[32:325631] kernel: [Security] poll successful
+[32:361569] kernel: [Security] signal acknowledged
+[32:383715] kernel: [Bluetooth] healthcheck passed
+[32:400800] kernel: [Watchdog] async event handled
+[32:421701] kernel: [Baseband] watchpoint cleared
+[32:448297] kernel: [Watchdog] poll successful
+[32:485910] kernel: [SpringBoard] state unchanged
+[32:501033] kernel: [Security] metrics updated
+[32:532710] kernel: [AMFI] power state stable
+[32:570311] kernel: [Memory] power state stable
+[32:585104] kernel: [Backboard] signal acknowledged
+[32:604193] kernel: [IOKit] latency within limits
+[32:628207] kernel: [Memory] status nominal
+[32:651831] kernel: [SpringBoard] no anomalies detected
+[32:664037] kernel: [Bluetooth] cache refreshed
+[32:680873] kernel: [CommCenter] poll successful
+[32:707663] kernel: [Network] healthcheck passed
+[32:726524] kernel: [Thermal] power state stable
+[32:741720] kernel: [Security] power state stable
+[32:761312] kernel: [Watchdog] background task finished
+[32:792962] kernel: [Backboard] async event handled
+[32:801979] kernel: [Touch] no anomalies detected
+[32:840191] kernel: [CommCenter] queue drained
+[32:878159] kernel: [APFS] power state stable
+[32:911290] kernel: [Display] metrics updated
+[32:936908] kernel: [Audio] wakeup event handled
+[32:958913] kernel: [CommCenter] wakeup event handled
+[32:993323] kernel: [Backboard] status nominal
+[33:004544] kernel: [Backboard] status nominal
+[33:016003] kernel: [CPU] metrics updated
+[33:043601] kernel: [IOKit] latency within limits
+[33:061852] kernel: [Thermal] metrics updated
+[33:069697] kernel: [Haptic] poll successful
+[33:078450] kernel: [Thermal] no anomalies detected
+[33:083937] kernel: [Scheduler] signal acknowledged
+[33:107007] kernel: [Jetsam] metrics updated
+[33:135366] kernel: [SpringBoard] idle cycle complete
+[33:141670] kernel: [WiFi] healthcheck passed
+[33:163200] kernel: [Baseband] state unchanged
+[33:200692] kernel: [Touch] healthcheck passed
+[33:223683] kernel: [Security] wakeup event handled
+[33:229596] kernel: [Memory] maintenance pass complete
+[33:267123] kernel: [CPU] latency within limits
+[33:293168] kernel: [Scheduler] latency within limits
+[33:302942] kernel: [Audio] async event handled
+[33:339367] kernel: [SpringBoard] wakeup event handled
+[33:352333] kernel: [APFS] healthcheck passed
+[33:362883] kernel: [Jetsam] queue drained
+[33:386292] kernel: [Security] watchpoint cleared
+[33:395771] kernel: [Haptic] wakeup event handled
+[33:432675] kernel: [WiFi] cache refreshed
+[33:466170] kernel: [Touch] heartbeat ok
+[33:476314] kernel: [Baseband] poll successful
+[33:502962] kernel: [Thermal] status nominal
+[33:538541] kernel: [Bluetooth] async event handled
+[33:561392] kernel: [Thermal] async event handled
+[33:576995] kernel: [CommCenter] latency within limits
+[33:600808] kernel: [Baseband] metrics updated
+[33:620515] kernel: [Audio] no anomalies detected
+[33:632890] kernel: [Bluetooth] cache refreshed
+[33:667600] kernel: [Haptic] poll successful
+[33:676168] kernel: [Network] watchpoint cleared
+[33:713814] kernel: [Security] metrics updated
+[33:737914] kernel: [Backboard] status nominal
+[33:768028] kernel: [APFS] signal acknowledged
+[33:791385] kernel: [APFS] power state stable
+[33:810928] kernel: [CPU] async event handled
+[33:823598] kernel: [Memory] power state stable
+[33:840445] kernel: [Touch] heartbeat ok
+[33:877023] kernel: [USB] tick processed
+[33:906142] kernel: [Backboard] cache refreshed
+[33:941724] kernel: [Thermal] maintenance pass complete
+[33:975194] kernel: [Baseband] idle cycle complete
+[34:000385] kernel: [IOKit] signal acknowledged
+[34:016518] kernel: [Security] wakeup event handled
+[34:026683] kernel: [CommCenter] latency within limits
+[34:043246] kernel: [CPU] maintenance pass complete
+[34:056896] kernel: [Watchdog] signal acknowledged
+[34:080694] kernel: [Watchdog] cache refreshed
+[34:097033] kernel: [IOKit] tick processed
+[34:124286] kernel: [AMFI] signal acknowledged
+[34:152084] kernel: [Jetsam] signal acknowledged
+[34:187192] kernel: [Memory] heartbeat ok
+[34:225181] kernel: [Network] idle cycle complete
+[34:251428] kernel: [Scheduler] wakeup event handled
+[34:273948] kernel: [IOKit] status nominal
+[34:293972] kernel: [Jetsam] maintenance pass complete
+[34:332280] kernel: [IOKit] async event handled
+[34:353615] kernel: [AMFI] metrics updated
+[34:367612] kernel: [Audio] no anomalies detected
+[34:374937] kernel: [Security] signal acknowledged
+[34:394236] kernel: [Scheduler] cache refreshed
+[34:424083] kernel: [WiFi] status nominal
+[34:462912] kernel: [CPU] power state stable
+[34:480878] kernel: [Sandbox] tick processed
+[34:509111] kernel: [Display] async event handled
+[34:531871] kernel: [WiFi] background task finished
+[34:540696] kernel: [Watchdog] queue drained
+[34:551465] kernel: [IOKit] cache refreshed
+[34:563638] kernel: [Watchdog] status nominal
+[34:571048] kernel: [Memory] latency within limits
+[34:589094] kernel: [Watchdog] healthcheck passed
+[34:611933] kernel: [Scheduler] healthcheck passed
+[34:646693] kernel: [Backboard] latency within limits
+[34:686141] kernel: [Backboard] status nominal
+[34:712215] kernel: [Haptic] async event handled
+[34:745766] kernel: [SpringBoard] tick processed
+[34:783001] kernel: [Memory] watchpoint cleared
+[34:812460] kernel: [Jetsam] cache refreshed
+[34:835293] kernel: [AMFI] healthcheck passed
+[34:872962] kernel: [Memory] status nominal
+[34:896458] kernel: [Bluetooth] power state stable
+[34:902914] kernel: [Network] wakeup event handled
+[34:936392] kernel: [Security] no anomalies detected
+[34:968818] kernel: [Security] status nominal
+[34:982287] kernel: [IOKit] heartbeat ok
+[35:001082] kernel: [Watchdog] poll successful
+[35:027318] kernel: [Watchdog] wakeup event handled
+[35:040158] kernel: [Baseband] healthcheck passed
+[35:052741] kernel: [Display] no anomalies detected
+[35:089911] kernel: [CommCenter] power state stable
+[35:124893] kernel: [SpringBoard] poll successful
+[35:162691] kernel: [APFS] cache refreshed
+[35:180422] kernel: [CommCenter] tick processed
+[35:186750] kernel: [Scheduler] poll successful
+[35:216888] kernel: [NFC] cache refreshed
+[35:255574] kernel: [Sandbox] no anomalies detected
+[35:273342] kernel: [Thermal] cache refreshed
+[35:292209] kernel: [IOKit] healthcheck passed
+[35:315079] kernel: [Jetsam] cache refreshed
+[35:350172] kernel: [Memory] cache refreshed
+[35:376879] kernel: [Audio] maintenance pass complete
+[35:395146] kernel: [Display] idle cycle complete
+[35:432189] kernel: [Jetsam] poll successful
+[35:466116] kernel: [Audio] heartbeat ok
+[35:498474] kernel: [Watchdog] wakeup event handled
+[35:524325] kernel: [Touch] idle cycle complete
+[35:562755] kernel: [Thermal] state unchanged
+[35:573735] kernel: [AMFI] watchpoint cleared
+[35:584949] kernel: [Thermal] cache refreshed
+[35:592086] kernel: [Backboard] state unchanged
+[35:624236] kernel: [Backboard] async event handled
+[35:636316] kernel: [Thermal] no anomalies detected
+[35:642404] kernel: [Backboard] wakeup event handled
+[35:669936] kernel: [Network] queue drained
+[35:702843] kernel: [IOKit] power state stable
+[35:712977] kernel: [WiFi] power state stable
+[35:747737] kernel: [Network] tick processed
+[35:776556] kernel: [APFS] metrics updated
+[35:796744] kernel: [USB] latency within limits
+[35:821143] kernel: [Scheduler] maintenance pass complete
+[35:848197] kernel: [Backboard] metrics updated
+[35:858622] kernel: [Baseband] tick processed
+[35:894770] kernel: [Sandbox] maintenance pass complete
+[35:907231] kernel: [SpringBoard] cache refreshed
+[35:919260] kernel: [CPU] queue drained
+[35:953676] kernel: [Audio] async event handled
+[35:965957] kernel: [Jetsam] signal acknowledged
+[35:991031] kernel: [Display] heartbeat ok
+[36:029720] kernel: [NFC] healthcheck passed
+[36:042897] kernel: [WiFi] no anomalies detected
+[36:054213] kernel: [Thermal] poll successful
+[36:062260] kernel: [Backboard] latency within limits
+[36:089765] kernel: [Jetsam] poll successful
+[36:109719] kernel: [CPU] maintenance pass complete
+[36:142157] kernel: [Scheduler] signal acknowledged
+[36:148265] kernel: [Thermal] poll successful
+[36:176275] kernel: [CPU] no anomalies detected
+[36:211948] kernel: [Audio] watchpoint cleared
+[36:248468] kernel: [Network] idle cycle complete
+[36:271115] kernel: [Touch] maintenance pass complete
+[36:292635] kernel: [Memory] watchpoint cleared
+[36:331349] kernel: [Bluetooth] queue drained
+[36:358400] kernel: [Touch] poll successful
+[36:367239] kernel: [Bluetooth] state unchanged
+[36:402570] kernel: [Audio] latency within limits
+[36:416272] kernel: [Haptic] no anomalies detected
+[36:441337] kernel: [Display] latency within limits
+[36:462001] kernel: [CPU] no anomalies detected
+[36:500526] kernel: [Touch] healthcheck passed
+[36:517030] kernel: [Baseband] wakeup event handled
+[36:539484] kernel: [Backboard] signal acknowledged
+[36:557113] kernel: [Memory] poll successful
+[36:589033] kernel: [Jetsam] queue drained
+[36:602949] kernel: [IOKit] maintenance pass complete
+[36:633655] kernel: [Bluetooth] background task finished
+[36:659463] kernel: [Thermal] idle cycle complete
+[36:670829] kernel: [WiFi] background task finished
+[36:703905] kernel: [NFC] signal acknowledged
+[36:724522] kernel: [Security] heartbeat ok
+[36:753252] kernel: [Scheduler] watchpoint cleared
+[36:780889] kernel: [USB] signal acknowledged
+[36:814707] kernel: [Audio] metrics updated
+[36:826489] kernel: [SpringBoard] no anomalies detected
+[36:838007] kernel: [CommCenter] metrics updated
+[36:870301] kernel: [CPU] poll successful
+[36:876585] kernel: [CPU] state unchanged
+[36:909061] kernel: [Watchdog] watchpoint cleared
+[36:914487] kernel: [USB] healthcheck passed
+[36:951369] kernel: [Backboard] idle cycle complete
+[36:977610] kernel: [NFC] state unchanged
+[37:011062] kernel: [Haptic] status nominal
+[37:042094] kernel: [APFS] metrics updated
+[37:066749] kernel: [Jetsam] queue drained
+[37:077723] kernel: [Thermal] async event handled
+[37:106893] kernel: [APFS] heartbeat ok
+[37:130232] kernel: [Touch] background task finished
+[37:158406] kernel: [AMFI] latency within limits
+[37:189495] kernel: [SpringBoard] poll successful
+[37:218013] kernel: [Bluetooth] metrics updated
+[37:250684] kernel: [IOKit] state unchanged
+[37:268675] kernel: [NFC] healthcheck passed
+[37:279182] kernel: [WiFi] no anomalies detected
+[37:288415] kernel: [Audio] no anomalies detected
+[37:326805] kernel: [Touch] async event handled
+[37:341119] kernel: [Watchdog] idle cycle complete
+[37:353059] kernel: [CommCenter] latency within limits
+[37:361689] kernel: [Haptic] healthcheck passed
+[37:374581] kernel: [Display] idle cycle complete
+[37:393789] kernel: [Touch] metrics updated
+[37:410670] kernel: [USB] wakeup event handled
+[37:434943] kernel: [Bluetooth] metrics updated
+[37:462066] kernel: [Security] power state stable
+[37:488702] kernel: [IOKit] wakeup event handled
+[37:503714] kernel: [Watchdog] maintenance pass complete
+[37:542335] kernel: [CPU] async event handled
+[37:548584] kernel: [Haptic] heartbeat ok
+[37:553919] kernel: [Memory] latency within limits
+[37:581828] kernel: [Sandbox] idle cycle complete
 [1:093152] kernel: [Userspace] Spawning jbinit
 [1:113373] jbinit: Hello from jbinit!
 [1:133594] jbinit: Version 2.0.0-beta.7
