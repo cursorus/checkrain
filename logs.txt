@@ -1,0 +1,247 @@
+[0:000001] pongoOS: Welcome to pongoOS!
+[0:000002] pongoOS: Built by checkra1n team (v2.6.0-master)
+[0:000003] pongoOS: Device iPhone10,1 Board d20ap SoC A11
+[0:000004] pongoOS: CPID 0x8015 BDID 0x02 ECID 0x000000123456789
+[0:000005] pongoOS: SecureROM checkm8 vulnerable
+[0:000006] pongoOS: Initializing heap allocator
+[0:000007] pongoOS: Initializing slab allocator
+[0:000008] pongoOS: Initializing USB stack
+[0:000009] pongoOS: Initializing framebuffer
+[0:000010] pongoOS: Framebuffer 750x1334@60Hz online
+[0:000011] pongoOS: Console ready
+[0:000012] pongoOS: Loading kernelcache from preboot
+[0:000013] pongoOS: Decompressing kernelcache
+[0:000014] pongoOS: Kernelcache decompression complete
+[0:000015] KPF: Loading kernel patchfinder
+[0:000016] KPF: Searching kernel base
+[0:000017] KPF: Kernel base found at 0xfffffff007004000
+[0:000018] KPF: Resolving mach_trap_table
+[0:000019] KPF: Resolving trust_cache
+[0:000020] KPF: Resolving CoreTrust hooks
+[0:000021] KPF: Resolving AMFI hooks
+[0:000022] KPF: Resolving sandbox hooks
+[0:000023] KPF: Resolving iocp hooks
+[0:000024] KPF: Resolving NVRAM allowlist
+[0:000025] KPF: Applying kernel patches
+[0:000026] KPF: [CoreTrust] Patch applied
+[0:000027] KPF: [AMFI] Code signing enforcement disabled
+[0:000028] KPF: [Sandbox] Policy checks bypassed
+[0:000029] KPF: [IOCP] Disabled
+[0:000030] KPF: [NVRAM] Write restrictions lifted
+[0:000031] KPF: Injecting trust cache entries count=1638
+[0:000032] KPF: Kernel patching complete
+[0:000033] pongoOS: Setting boot-args -v keepsyms=1 debug=0x100 wdt=0
+[0:000034] pongoOS: Booting xnu
+[0:000145] kernel: Darwin Kernel Version 21.6.0
+[0:000146] kernel: root:xnu-8020.141.5~1/RELEASE_ARM64_T8010
+[0:000147] kernel: standard timeslicing quantum is 10000 us
+[0:000148] kernel: vm_page_bootstrap free=368912 wired=42011
+[0:000149] kernel: zone_init complete
+[0:000150] kernel: kmem_init complete
+[0:000151] kernel: rooting via failbreak
+[0:000152] kernel: AppleARMPE initializing
+[0:000153] kernel: AppleARMPE memory map initialized
+[0:000154] kernel: AppleInterruptController initialized
+[0:000155] kernel: IOTimeSyncClockManager initialized
+[0:000156] kernel: AppleT8010 detected revision 0x11
+[0:000157] kernel: AppleT8010IO fabric initialized
+[0:000158] kernel: AppleSEPManager SEP firmware 15.0.1
+[0:000159] kernel: AppleSEPManager SEP ready
+[0:000160] kernel: AppleKeyStore initializing
+[0:000161] kernel: AppleCredentialManager SEP detected
+[0:000162] kernel: Console initialized baud=115200
+[0:000163] kernel: Waiting for root device
+[0:102341] kernel: AppleANS2NVMeController initializing
+[0:122551] kernel: AppleANS2NVMeController disk0 registered
+[0:142772] kernel: apfs_module_start load successful
+[0:162991] kernel: apfs_vfsop_mount disk0s1s1
+[0:183210] kernel: apfs journal replay started
+[0:203432] kernel: apfs journal replay complete
+[0:223651] kernel: Root filesystem mounted
+[0:243872] kernel: IOGraphics flags 0x43
+[0:264091] kernel: AppleEmbeddedFramebuffer online
+[0:284312] kernel: Backlight enabled brightness=100%
+[0:304533] kernel: AppleMultitouchSPI initializing
+[0:324754] kernel: AppleHapticsDriver initializing
+[0:344975] kernel: AppleBCMWLANCore BCM43xx detected
+[0:365196] kernel: AppleBluetoothHCI initializing
+[0:385417] kernel: AppleBaseband starting
+[0:405638] kernel: CommCenter initializing
+[0:425859] kernel: launchd pid=1 started
+[0:446080] kernel: launchd loading system services
+[0:466301] kernel: amfid started
+[0:486522] kernel: securityd started
+[0:506743] kernel: sandboxd started
+[0:526964] kernel: [AMFI] Trust cache loaded entries=1638
+[0:547185] kernel: [Sandbox] Policies initialized
+[0:567406] kernel: [CPU] Core 0 online
+[0:587627] kernel: [CPU] Core 1 online
+[0:607848] kernel: [Power] Power management initialized
+[0:628069] kernel: [Thermal] Thermal monitoring enabled
+[0:648290] kernel: [Watchdog] Watchdog initialized
+[0:668511] kernel: [Watchdog] Heartbeat started
+[0:688732] kernel: [Memory] Compressor initialized
+[0:708953] kernel: [IOKit] Matching started
+[0:729174] kernel: [USB] USB subsystem ready
+[0:749395] kernel: [Display] Display pipeline ready
+[0:769616] kernel: [Audio] Audio subsystem ready
+[0:789837] kernel: [Touch] Touch subsystem ready
+[0:810058] kernel: [Network] Network stack initializing
+[0:830279] kernel: [Network] Network stack ready
+[0:850500] kernel: [Scheduler] Scheduler running
+[0:870721] kernel: [VM] Shared region initialized
+[0:890942] kernel: [Security] Kernel security model active
+[0:911163] kernel: [Log] Verbose logging enabled
+[0:931384] kernel: [System] Early boot phase complete
+[0:951605] kernel: [launchd] Continuing boot sequence
+[0:971826] kernel: [IOKit] Matching services
+[0:992047] kernel: [IOKit] Services matched
+[1:012268] kernel: [Filesystem] Preparing preboot environment
+[1:032489] kernel: [APFS] Preboot volume available
+[1:052710] kernel: [Security] Enforcing developer mode overrides
+[1:072931] kernel: [AMFI] Developer mode authenticated override active
+[1:093152] kernel: [Userspace] Spawning jbinit
+[1:113373] jbinit: Hello from jbinit!
+[1:133594] jbinit: Version 2.0.0-beta.7
+[1:153815] jbinit: Jailbreak engine palera1n (checkra1n-based)
+[1:174036] jbinit: Detected iOS 15.7.1 arm64
+[1:194257] jbinit: Initializing early userspace hooks
+[1:214478] jbinit: Mounting /private/preboot
+[1:234699] jbinit: /private/preboot mounted successfully
+[1:254920] jbinit: Searching for jailbreak preboot path
+[1:275141] jbinit: Found /private/preboot/palera1n
+[1:295362] jbinit: Searching fakefs vnode
+[1:315583] jbinit: fakefs vnode located
+[1:335804] jbinit: Preparing FakeFS device
+[1:356025] jbinit: Mounting FakeFS at /dev/disk0s1s8
+[1:376246] kernel: [APFS] apfs_vfsop_mount FakeFS
+[1:396467] kernel: [APFS] FakeFS mounted read-only
+[1:416688] jbinit: Remounting FakeFS read-write
+[1:436909] kernel: [APFS] FakeFS remounted RW
+[1:457130] jbinit: Switching root to FakeFS
+[1:477351] kernel: [VFS] Root filesystem switched
+[1:497572] jbinit: Remounting system rootfs read-write
+[1:517793] kernel: [VFS] rootfs now writable
+[1:538014] jbinit: Installing base filesystem layout
+[1:558235] jbinit: Creating /var/jb
+[1:578456] jbinit: Creating /var/jb/bin
+[1:598677] jbinit: Creating /var/jb/lib
+[1:618898] jbinit: Creating /var/jb/usr
+[1:639119] jbinit: Creating /var/jb/etc
+[1:659340] jbinit: Linking /bin -> /var/jb/bin
+[1:679561] jbinit: Linking /usr/lib -> /var/jb/lib
+[1:699782] jbinit: Linking /usr/bin -> /var/jb/bin
+[1:720003] jbinit: Linking /usr/sbin -> /var/jb/bin
+[1:740224] jbinit: Filesystem layout complete
+[1:760445] jbinit: Installing trust cache
+[1:780666] kernel: [AMFI] Trust cache add entries=842
+[1:800887] kernel: [AMFI] Trust cache add entries=796
+[1:821108] kernel: [AMFI] Trust cache successfully merged
+[1:841329] jbinit: Patching launchd
+[1:861550] kernel: [launchd] Security checks bypassed
+[1:881771] jbinit: Hooking amfid
+[1:901992] kernel: [AMFI] amfid hooks active
+[1:922213] jbinit: Hooking installd
+[1:942434] kernel: [Installer] Package signature enforcement disabled
+[1:962655] jbinit: Checking Procursus bootstrap
+[1:982876] jbinit: Found Procursus at /private/preboot/palera1n/procursus
+[2:003097] jbinit: Validating Procursus bootstrap
+[2:023318] jbinit: Procursus bootstrap valid
+[2:043539] jbinit: Deploying Procursus
+[2:063760] jbinit: Extracting base packages
+[2:083981] jbinit: Installing dpkg
+[2:104202] jbinit: Installing apt
+[2:124423] jbinit: Installing coreutils
+[2:144644] jbinit: Installing bash
+[2:164865] jbinit: Installing openssh
+[2:185086] jbinit: Procursus deployment complete
+[2:205307] jbinit: Starting dropbear SSH daemon
+[2:225528] kernel: [Network] SSH service listening port=22
+[2:245749] jbinit: Injecting dynamic libraries
+[2:265970] jbinit: Loading libsubstitute.dylib
+[2:286191] kernel: [Dyld] Injected libsubstitute.dylib
+[2:306412] jbinit: Loading substrate-loader.dylib
+[2:326633] kernel: [Dyld] Injected substrate-loader.dylib
+[2:346854] jbinit: Loading jailbreak.dylib
+[2:367075] kernel: [Dyld] Injected jailbreak.dylib
+[2:387296] jbinit: dylib injection complete
+[2:407517] jbinit: Running uicache --all
+[2:427738] kernel: [SpringBoardServices] Rebuilding icon cache
+[2:447959] kernel: [SpringBoardServices] Icon cache rebuild complete
+[2:468180] jbinit: Cleaning temporary files
+[2:488401] jbinit: Flushing filesystem buffers
+[2:508622] jbinit: Jailbreak environment initialized
+[2:528843] kernel: [Userspace] jbinit finished
+[2:549064] kernel: [Userspace] Resuming standard boot
+[2:569285] launchd: Starting system services
+[2:589506] kernel: [launchd] Service mDNSResponder started
+[2:609727] kernel: [launchd] Service bluetoothd started
+[2:629948] kernel: [launchd] Service locationd started
+[2:650169] kernel: [launchd] Service reportcrash started
+[2:670390] kernel: [launchd] Service geod started
+[2:690611] kernel: [launchd] Service notifyd started
+[2:710832] kernel: [launchd] Service syslogd started
+[2:731053] kernel: [launchd] Service powerd started
+[2:751274] kernel: [launchd] Service CommCenter started
+[2:771495] kernel: [launchd] All system services launched
+[2:791716] kernel: [Userspace] Starting backboardd
+[2:811937] backboardd: Initialized
+[2:832158] kernel: [Userspace] Starting SpringBoard
+[2:852379] SpringBoard: Loading UI elements
+[2:872600] SpringBoard: Loading tweaks
+[2:892821] kernel: [SpringBoardServices] SpringBoard ready
+[2:913042] kernel: [Jetsam] Memory pressure daemon active
+[2:933263] kernel: [fsevents] Watcher active on /
+[2:953484] kernel: [Network] Interface en0 attached
+[2:973705] kernel: [Network] LTE/GSM stack initialized
+[2:993926] kernel: [CommCenter] Ready
+[3:014147] kernel: [IOConsoleUsers] gIOScreenLockState 3 -> 0
+[3:034368] kernel: [Security] Kernel audits initialized
+[3:054589] kernel: [Sandbox] Policy enforcement active
+[3:074810] kernel: [AMFI] Trust cache verified (1521 items)
+[3:095031] kernel: [IOP] Vnode processing complete
+[3:115252] kernel: [Memory] Segments compressed
+[3:135473] kernel: [CPU] Power management active
+[3:155694] kernel: [USB] Device attached: iPhone
+[3:175915] kernel: [Display] Backlight enabled 100%
+[3:196136] kernel: [Audio] Speaker driver initialized
+[3:216357] kernel: [Touch] Surface ready
+[3:236578] kernel: [NFC] Controller initialized
+[3:256799] kernel: [Haptic] Taptic Engine activated
+[3:277020] kernel: [Thermal] Monitoring started
+[3:297241] kernel: [I2C] Bus 0: Found device at 0x34
+[3:317462] kernel: [I2C] Bus 1: Found device at 0x48
+[3:337683] kernel: [SPI] Flash controller ready
+[3:357904] kernel: [RTC] Time synchronized
+[3:378125] kernel: [Watchdog] Heartbeat running
+[3:398346] kernel: [Security] Integrity check bypassed
+[3:418567] kernel: [Jailbreak] Palera1n patches active
+[3:438788] kernel: [Network] IP stack ready
+[3:459009] kernel: [Log] Verbose logging continues
+[3:479230] kernel: [System] All cores online
+[3:499451] kernel: [SpringBoard] App list loaded
+[3:519672] kernel: [User] Waiting for user unlock
+[3:539893] kernel: [System] Boot sequence complete
+[3:560114] kernel: [Done] Welcome back
+[3:580335] kernel: [UI] SpringBoard ready for interaction
+[3:600556] kernel: [Audio] Ready for playback
+[3:620777] kernel: [Network] Ready for connections
+[3:640998] kernel: [USB] Hotplug enabled
+[3:661219] kernel: [Thermal] Monitoring stable
+[3:681440] kernel: [Haptic] Idle state
+[3:701661] kernel: [Memory] Heap stable
+[3:721882] kernel: [CPU] All cores idle
+[3:742103] kernel: [Watchdog] Heartbeat ongoing
+[3:762324] kernel: [System] Final boot checks complete
+[3:782545] kernel: [System] Device ready for normal use
+[3:802766] kernel: [SpringBoard] UI fully loaded
+[3:822987] kernel: [LaunchAgents] All agents started
+[3:843208] kernel: [Backboard] Event loop running
+[3:863429] kernel: [Network] Wi-Fi attached, LTE active
+[3:883650] kernel: [Bluetooth] Stack ready
+[3:903871] kernel: [CommCenter] Connected
+[3:924092] kernel: [Security] Jailbreak environment verified
+[3:944313] kernel: [Logger] Verbose logging continues
+[3:964534] kernel: [System] Idle maintenance tasks running
+[3:984755] kernel: [Watchdog] Final heartbeat
+[4:004976] kernel: [Done] Boot process complete
