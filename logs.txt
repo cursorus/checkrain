@@ -9,7 +9,15 @@
 [0:000009] pongoOS: Initializing framebuffer
 [0:000010] pongoOS: Framebuffer 750x1334@60Hz online
 [0:000011] pongoOS: Console ready
-[0:000012] pongoOS: Loading kernelcache from preboot
+[0:000012] pongoOS: Loading 
+
+
+
+
+
+
+
+kernelcache from preboot
 [0:000013] pongoOS: Decompressing kernelcache
 [0:000014] pongoOS: Kernelcache decompression complete
 [0:000015] KPF: Loading kernel patchfinder
