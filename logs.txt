@@ -28,7 +28,7 @@ Running on: Apple A8 (T7000)
 #Castello, haifisch, jndok, jonseals, xerub, lilstevie, psychotea, sfirreni,
 #tihmstar, (th0mpson, cjori, ronyrus et al.)
 #================
-
+{1.5}
 Found old-style rdisk
 Set xnu boot arg cmdline to: [rootdev=md0]
 Invoking preboot hook
@@ -60,6 +60,7 @@ KPF: Disabled snapshot temporarily
 KPF: Applied patchset in 163 ms
 KPF: Allocated static region for rdisk 0x8051a000000
 Booting
+{3}
 [0:000001] pongoOS: Welcome to pongoOS!
 [0:000002] pongoOS: Built by checkra1n team (v2.6.0-master)
 [0:000003] pongoOS: Device iPhone10,1 Board d20ap SoC A11
@@ -429,6 +430,4 @@ kernelcache from preboot
 [   13.743114] launchd: user session fully started
 [   13.763441] launchd: system services stable
 [   13.783992] kernel: all subsystems operational
-[   13.804114] System: transition to normal operation
-[   13.824441] System: uptime tracking resumed
-[   13.844992] System: ready
+[   13.804114] kernel: [Done] Boot process complete
