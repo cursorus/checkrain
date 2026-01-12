@@ -85,34 +85,51 @@
 
         const logWindow = document.getElementById('log-window');
 
+function sleep(ms) {
+    return new Promise(r => setTimeout(r, ms));
+}
+
+function addLine(text) {
+    if (!text.trim()) return;
+
+    const lineElement = document.createElement('div');
+    lineElement.className = 'line';
+    lineElement.textContent = text;
+    logWindow.appendChild(lineElement);
+
+    const rect = lineElement.getBoundingClientRect();
+    if (rect.bottom > window.innerHeight - 20) {
+        logWindow.removeChild(logWindow.firstChild);
+    }
+}
+        
         async function startBoot() {
             try {
                 const response = await fetch('logs.txt?v=' + Date.now());
                 const text = await response.text();
                 const lines = text.split('\n');
 
-                for (let line of lines) {
-                    if (line.trim() === "") continue;
+                for (let rawLine of lines) {
 
-                    const lineElement = document.createElement('div');
-                    lineElement.className = 'line';
-                    lineElement.textContent = line;
-                    logWindow.appendChild(lineElement);
+    // ⏱ ЗАДЕРЖКА В { }
+    const delayMatch = rawLine.match(/^\{([\d.]+)\}$/);
+    if (delayMatch) {
+        const seconds = parseFloat(delayMatch[1]);
+        if (!isNaN(seconds)) {
+            await sleep(seconds * 1000);
+        }
+        continue; // не выводим строку
+    }
 
-                    // ПРОВЕРКА ЗАПОЛНЕНИЯ ЭКРАНА
-                    // Если низ последней строки ушел за край экрана
-                    const rect = lineElement.getBoundingClientRect();
-                    if (rect.bottom > window.innerHeight - 20) {
-                        // Удаляем самую верхнюю строку
-                        logWindow.removeChild(logWindow.firstChild);
-                    }
+    addLine(rawLine);
 
-                    // Случайная задержка
-                    let delay = Math.random() * 40 + 2;
-                    if (line.includes('[jbinit]')) delay = 250;
-                    
-                    await new Promise(r => setTimeout(r, delay));
-                }
+    // стандартная задержка между строками
+    let delay = Math.random() * 40 + 5;
+    if (rawLine.includes('[jbinit]')) delay = 250;
+
+    await sleep(delay);
+}
+                
 
                 const cursorLine = document.createElement('div');
                 cursorLine.className = 'line';
