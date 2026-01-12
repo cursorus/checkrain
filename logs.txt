@@ -1,0 +1,434 @@
+#================
+#
+# pongoOS 2.5.1-9234e72f
+#
+# https://checkra.in
+#
+#================
+Booted by: iBoot-4513.270.14
+Built with: Apple LLVM 10.0.0
+Running on: Apple A8 (T7000)
+[modload_macho:41] Attempting to load a module
+[modload_macho:45] Loaded module checkra1n-kpf2-12.0.14.5
+
+#================
+# checkra1n kpf 0.12.4
+# (c) 2019-2021 Kim Jong Cracks
+#
+# This software is not for sale
+# If you purchased this, please report the seller.
+#
+# Get it for free at https://checkra.in
+#
+#==== Made by ====
+#argp, axi0mx, dany_l931, jaywalker, kirb, littlelailo, nitoTV,
+#never_released, nullpixel, pimskeks, qwertyoruiop, sbingner, siguza
+#
+#==== Thanks to ====
+#Castello, haifisch, jndok, jonseals, xerub, lilstevie, psychotea, sfirreni,
+#tihmstar, (th0mpson, cjori, ronyrus et al.)
+#================
+
+Found old-style rdisk
+Set xnu boot arg cmdline to: [rootdev=md0]
+Invoking preboot hook
+KPF: found apps_rename
+KPF: found AMFI mount
+KPF: found AMFI execute hook
+KPF: found AMFI task_for_pid check
+KPF: found AMFI hash_lookup
+KPF: found vnode lookup
+KPF: found mach traps
+KPF: found tfp0
+KPF: found shellcode area, copying...
+KPF: found ret0 gadget
+KPF: found task_conversion_eval
+KPF: found task_conversion_eval
+KPF: found task_conversion_eval
+KPF: found task_conversion_eval
+KPF: found VM_map_enter
+KPF: found VM_map_protect
+KPF: found AMFI {Leaf}
+KPF: found AMFI {Leaf}
+KPF: found AMFI {Leaf}
+KPF: found vnode_getpath
+KPF: found mac_mount
+KPF: found mac_vnode_check_mount
+KPF: found vnode_getattry
+KPF: patched dyld check
+KPF: Disabled snapshot temporarily
+KPF: Applied patchset in 163 ms
+KPF: Allocated static region for rdisk 0x8051a000000
+Booting
+[0:000001] pongoOS: Welcome to pongoOS!
+[0:000002] pongoOS: Built by checkra1n team (v2.6.0-master)
+[0:000003] pongoOS: Device iPhone10,1 Board d20ap SoC A11
+[0:000004] pongoOS: CPID 0x8015 BDID 0x02 ECID 0x000000123456789
+[0:000005] pongoOS: SecureROM checkm8 vulnerable
+[0:000006] pongoOS: Initializing heap allocator
+[0:000007] pongoOS: Initializing slab allocator
+[0:000008] pongoOS: Initializing USB stack
+[0:000009] pongoOS: Initializing framebuffer
+[0:000010] pongoOS: Framebuffer 750x1334@60Hz online
+[0:000011] pongoOS: Console ready
+[0:000012] pongoOS: Loading 
+{1.5}
+kernelcache from preboot
+[0:000013] pongoOS: Decompressing kernelcache
+[0:000014] pongoOS: Kernelcache decompression complete
+[0:000015] KPF: Loading kernel patchfinder
+[0:000016] KPF: Searching kernel base
+[0:000017] KPF: Kernel base found at 0xfffffff007004000
+[0:000018] KPF: Resolving mach_trap_table
+[0:000019] KPF: Resolving trust_cache
+[0:000020] KPF: Resolving CoreTrust hooks
+[0:000021] KPF: Resolving AMFI hooks
+[0:000022] KPF: Resolving sandbox hooks
+[0:000023] KPF: Resolving iocp hooks
+[0:000024] KPF: Resolving NVRAM allowlist
+[0:000025] KPF: Applying kernel patches
+[0:000026] KPF: [CoreTrust] Patch applied
+[0:000027] KPF: [AMFI] Code signing enforcement disabled
+[0:000028] KPF: [Sandbox] Policy checks bypassed
+[0:000029] KPF: [IOCP] Disabled
+[0:000030] KPF: [NVRAM] Write restrictions lifted
+[0:000031] KPF: Injecting trust cache entries count=1638
+[0:000032] KPF: Kernel patching complete
+[    0.000000] Darwin Kernel Version 18.7.0: Fri Aug 19 23:20:26 PDT 2022; root:xnu-4903.272.5~1/RELEASE_ARM64_T7000
+[    0.000000] Kernel UUID: 9D7A1B4C-3A41-11ED-B878-0242AC120002
+[    0.000000] boot-args = rootdev=md0 -v keepsyms=1 debug=0x144 msgbuf=1048576
+[    0.000000] vm_page_bootstrap: 236544 free pages, 8832 wired pages
+[    0.000000] physical memory: 1024 MB LPDDR3
+[    0.000042] AppleARMCPU: 2 cores detected
+[    0.000061] AppleARMCPU: core 0 online
+[    0.000082] AppleARMCPU: core 1 online
+[    0.000101] AppleT7000IO: initializing Apple ARM IO
+[    0.000115] AppleT7000InterruptController: 96 interrupts registered
+[    0.000140] AppleARMWatchdogTimer: started
+[    0.000201] AppleARMNuma: single NUMA node
+[    0.000255] AppleClockManager: system clocks configured
+[    0.000312] AppleGPIOController: 128 GPIOs available
+[    0.000388] AppleEmbeddedTempSensor: online
+[    0.000421] IOPlatformExpert: platform initialization complete
+[    0.010422] AppleT7000PCIe: pcie controller initialized
+[    0.020113] AppleARMMMU: TTBR0 configured
+[    0.030221] AppleARM64ErrorHandler: enabled
+[    0.082134] AppleSEPManager: loading SEP firmware
+[    0.091042] AppleSEPBooter: SEP status 1 (Accepted Tzk)
+[    0.095431] AppleSEPBooter: SEP status 2 (Accepted SEPART)
+[    0.102341] AppleSEPManager: starting SEPOS
+[    0.120442] AppleSEPKeyStore: init
+[    0.135114] AppleSEPKeyStore: UID key loaded
+[    0.150422] FIPSPOST: integrity check passed
+[    0.151120] FIPSPOST: HMAC test passed
+[    0.152341] FIPSPOST: AES ECB passed
+[    0.154562] FIPSPOST: AES CBC passed
+[    0.156781] FIPSPOST: AES GCM passed
+[    0.180542] FIPSPOST: RSA signature test passed
+[    0.190123] FIPSPOST: ECDSA test passed
+[    0.210432] SEP: endpoint 10 enabled
+[    0.230991] SEP: secure monitor active
+[    0.250421] ApplePMP: power management online
+[    0.260991] ApplePMP: DVFS enabled
+[    0.280112] AppleSmartBattery: capacity 88%
+[    0.290331] AppleSmartBattery: temperature nominal
+[    0.312044] apfs: mounting System volume
+[    0.320431] apfs: block size set to 4096
+[    0.345912] apfs: accelerated crypto enabled
+[    0.360442] AppleKeyStore: device keybag initialized
+[    0.380421] apfs: initializing kernel cache
+[    0.410231] apfs: no boot-manifest-hash snapshot
+[    0.420432] apfs: volume UUID read
+[    0.440991] mount: filesystem ready
+[    0.450321] dyld: patching in-memory
+[    0.460112] dyld: unsupported version 12 (ignored)
+[    0.470221] AMFI: patch applied
+[    0.490332] trustcache: custom trust cache injected
+[    0.510342] payload: run_command(/payload)
+[    0.511204] payload: kernel base found
+[    0.512021] payload: tfp0 acquired
+[    0.515671] payload: kernel R/W enabled
+[    0.518231] payload: xnucore base read
+[    0.519042] payload: osstring base read
+[    0.520331] payload: cstring base read
+[    0.525421] payload: data segment mapped
+[    0.540231] payload: kernel patches applied
+[    0.550112] payload: jailbreak flags set
+[    0.560421] payload: environment ready
+[    0.580112] kernelcache: restored
+[    0.600122] Darwin Bootstrapper v6.0.0
+[    0.612044] fsck_apfs: filesystem clean
+[    0.620432] spaceman: allocation zones initialized
+[    0.654121] /dev/disk0s1s2 mounted at /private/var
+[    0.680432] /dev/disk0s1s3 mounted at baseband_data
+[    0.710234] AppleKeyStore: special bag assigned
+[    0.750421] ASPStorage: root device md0
+[    0.800121] ====== MKB_INIT START ======
+[    0.812401] MKB_INIT: system keybag loaded
+[    0.830421] apfs: data volume unlocked
+[    0.865432] AppleSEPKeyStore: volume keybag mapped
+[    0.910231] MKB_INIT: usersession keybag missing
+[    0.950000] ====== MKB_INIT END ======
+[    1.010234] AppleH6CamIn: started
+[    1.020432] AppleEmbeddedAudio: CS42L71 initialized
+[    1.050221] AppleAudioDSP: firmware loaded
+[    1.100231] AppleM8Coproc: sensor hub ready
+[    1.150421] AppleH6Display: power up
+[    1.210342] AppleH6Display: panel J1 detected
+[    1.250443] AppleH6Display: backlight set
+[    1.300121] AppleH6Display: framebuffer online
+[    1.350221] IOSurfaceRoot: initialized
+[    1.410221] AppleMultitouchDevice: started
+[    1.480331] AppleTouchID: not supported
+[    1.520334] AppleBluetoothHCI: power on
+[    1.610421] AppleBCMWLAN: firmware loaded
+[    1.700342] AppleBCMWLAN: interface en0 up
+[    1.820431] AppleUSBHostResources: initialized
+[    1.910234] AppleUSBEHCI: controller ready
+[    2.010221] launchd[1]: system bootstrap
+[    2.120432] launchd: com.apple.backboardd started
+[    2.210342] launchd: com.apple.SpringBoard starting
+[    2.350443] SpringBoard: safe mode check passed
+[    2.510121] Substrate: loading CydiaSubstrate
+[    2.620334] Substrate: PreferenceLoader loaded
+[    2.820431] Substrate: RocketBootstrap loaded
+[    2.950112] CommCenter: initializing baseband
+[    3.110234] Baseband: boot successful
+[    3.250443] AppleIDAuth: service ready
+[    3.410221] UserEventAgent: started
+[    3.550121] configd: network configured
+[    3.710432] locationd: GPS core started
+[    3.920334] SpringBoard: UI initializing
+[    4.110421] SpringBoard: home screen loading
+[    4.310221] mediaserverd: audio session ready
+[    4.510121] backboardd: display services online
+[    4.710432] watchdogd: monitoring enabled
+[    4.920334] powerd: thermal policy applied
+[    5.110421] System: continuing boot sequence
+
+[    6.501114] SpringBoard: loading dynamic libraries from /Library/MobileSubstrate/DynamicLibraries
+[    6.531441] SubstrateLoader: loading CydiaSubstrate.framework
+[    6.560882] Substrate: Found tweak PreferenceLoader.dylib (arm64)
+[    6.591114] Substrate: Found tweak RocketBootstrap.dylib (arm64)
+[    6.621441] Substrate: Found tweak SubstrateSafeMode.dylib (arm64)
+[    6.661992] Substrate: injecting into SpringBoard
+[    6.701114] CommCenter: initializing radio services
+[    6.731441] CommCenter: Baseband state=BOOTING
+[    6.781992] CommCenter: Baseband state=READY
+[    6.811114] CommCenter: IMS, SMS, Telephony services started
+[    6.851441] backboardd: display services online, main display attached
+[    6.881992] mediaserverd: audio and video services initialized
+[    6.911114] locationd: starting GPS core, accuracy=high
+[    6.941441] configd: network configuration updated (en0 active)
+[    6.981992] UserEventAgent: loading user plugins
+[    7.011114] powerd: thermal profile applied (nominal)
+[    7.041441] watchdogd: monitoring SpringBoard (timeout=60s)
+[    7.081992] assertiond: process assertions enabled
+[    7.111114] amfid: AMFI trust cache active (custom)
+[    7.141441] installd: package database ready
+[    7.181992] itunesstored: storefront initialized
+[    7.211114] SpringBoard: initializing icon services
+[    7.241441] SpringBoard: loading application database
+[    7.281992] SpringBoard: restoring icon layout
+[    7.311114] SpringBoard: UI services starting
+[    7.341441] SpringBoard: status bar initialized
+[    7.371992] SpringBoard: waiting for backboardd handshake
+[    7.401114] backboardd: transaction pending (display ready)
+[    7.431441] SpringBoard: waiting for system services
+[    7.461992] SpringBoard: retrying service registration (1)
+[    7.501114] SpringBoard: retrying service registration (2)
+[    7.541441] SpringBoard: retrying service registration (3)
+[    7.581992] watchdogd: SpringBoard still initializing
+[    7.611114] watchdogd: deferring action, grace period active
+[    7.641441] UserEventAgent: system not idle
+[    7.681992] backboardd: UI transaction stalled
+[    7.711114] SpringBoard: waiting for com.apple.frontboard.systemappservices
+[    7.741441] SpringBoard: runloop active, UI not yet responsive
+[    7.781992] kernel: low priority threads pending
+[    7.811114] kernel: delaying idle entry (system busy)
+
+[    6.462113] apfs_crypto_init: device=/dev/disk0s1 crypto=1 keysize=256 blocksize=4096 features=0x1f
+[    6.472884] apfs_keybag_load: loading volume keybag uuid=3D0813B8-ACF3-4FE2-BE95-6401F7242C4E flags=0x40
+[    6.481332] AppleSEPKeyStore::volume_with_cookie: SUCCESS (cookie size=34)
+[    6.492118] AppleSEPKeyStore::set_volume_keybag: mapped volume to bag 0
+[    6.503441] AppleSEPKeyStore: sending keybag unlock notification
+[    6.514902] IOAESAccelerator: AES-XTS context initialized, tweak=enabled
+[    6.531774] nx_kernel_mount: checkpoint replay complete, elapsed=19ms
+[    6.544331] apfs_reclaim_space: reclaim skipped (free blocks sufficient)
+[    6.560882] apfs_vfsop_mount: completed mount of System volume (flags=0x400)
+[    6.581441] apfs_vfsop_mount: completed mount of Data volume (flags=0x440)
+[    6.601993] /dev/disk0s1s4: mounted Preboot volume (apfs, local, nodev, nosuid)
+[    6.621114] /dev/disk0s1s5: mounted Recovery volume (apfs, local, nodev, nosuid)
+[    6.640881] mount_preboot: locating boot-manifest-hash snapshot
+[    6.651441] mount_preboot: no snapshot found, continuing without snapshot
+[    6.671992] AppleKeyStore: unlocking class keys (class A,B,C,D)
+[    6.691114] AppleKeyStore: class A unlocked using system key
+[    6.711441] AppleKeyStore: class B unlocked
+[    6.731992] AppleKeyStore: class C unlocked
+[    6.751114] AppleKeyStore: class D unlocked
+[    6.781441] AppleKeyStore: all key classes unlocked successfully
+[    6.811992] MKB_INIT: system keybag unlock complete
+[    6.831114] MKB_INIT: retrying usersession load
+[    6.851441] MKB_INIT: usersession keybag still missing, skipping
+[    6.881992] AppleSEPManager: SEP services fully available
+[    6.911114] AppleSEPManager: enabling biometric and payment services
+[    6.941441] AppleSEPManager: biometric hardware not present
+[    6.981992] AppleEmbeddedTempSensor: thermal state nominal (29C)
+[    7.011114] ApplePMP: applying power profile id=2
+[    7.041441] ApplePMP: CPU frequency set to nominal
+[    7.081992] AppleARMCPU: core 0 scheduling enabled
+[    7.111114] AppleARMCPU: core 1 scheduling enabled
+[    7.141441] IOPlatformExpert: publishing platform properties
+[    7.181992] IOScheduler: realtime scheduling enabled
+[    7.211114] AppleARMWatchdogTimer: timeout=180s
+[    7.241441] AppleH6CamIn::configure: resolution=1280x720 fps=30
+[    7.271992] AppleH6CamIn::configure: sensor power state ON
+[    7.311114] AppleEmbeddedAudio::configure: channels=2 bitdepth=24
+[    7.341441] AppleAudioDSP: calibration data loaded
+[    7.381992] AppleM8Coproc: enabling step counter
+[    7.411114] AppleM8Coproc: motion fusion running
+[    7.441441] AppleH6Display: enabling vsync
+[    7.481992] AppleH6Display: color profile loaded (sRGB)
+[    7.511114] AppleH6Display: display online and active
+[    7.541441] IOSurfaceRoot: allocating default surfaces
+[    7.581992] IOSurfaceRoot: memory pressure level normal
+[    7.611114] AppleMultitouchDevice: calibrating touch sensors
+[    7.641441] AppleMultitouchDevice: calibration complete
+[    7.681992] AppleBluetoothHCI: HCI reset complete
+[    7.711114] AppleBluetoothHCI: SCO audio disabled
+[    7.741441] AppleBCMWLAN: power save mode enabled
+[    7.781992] AppleBCMWLAN: regulatory domain set
+[    7.811114] AppleBCMWLAN: scan cache cleared
+[    7.841441] AppleUSBHostResources: power budgeting complete
+[    7.881992] AppleUSBEHCI: port 1 power enabled
+[    7.911114] AppleUSBEHCI: no device connected
+[    7.941441] launchd[1]: evaluating system service graph
+[    7.981992] launchd: scheduling early daemons
+[    8.011114] launchd: starting com.apple.syslogd
+[    8.041441] launchd: starting com.apple.powerd
+[    8.081992] launchd: starting com.apple.mediaserverd
+[    8.111114] launchd: starting com.apple.backboardd
+[    8.141441] launchd: starting com.apple.SpringBoard
+[    8.181992] launchd: system services dispatched
+[    8.211114] SpringBoard: initializing runtime environment
+[    8.241441] SpringBoard: loading preferences database
+[    8.281992] SpringBoard: preferences loaded
+[    8.311114] SpringBoard: registering display services
+[    8.341441] SpringBoard: registering gesture recognizers
+[    8.381992] SpringBoard: enabling home button emulation
+[    8.411114] SpringBoard: starting main runloop
+[    8.441441] watchdogd: SpringBoard heartbeat received
+[    8.481992] kernel: idle loop entered on cpu0
+[    8.511114] kernel: idle loop entered on cpu1
+[    8.541441] System: entering steady state
+
+[    7.842771] SpringBoard: runloop iteration delayed due to pending XPC replies from com.apple.frontboard.systemappservices com.apple.backboardd com.apple.iconservices com.apple.uikit.viewservice while waiting for display transaction commit state=0x3 retries=0 timeout=4500ms
+[    7.873114] backboardd: display transaction blocked waiting on CAContext commit surface=0x2a layerTree=0x7f83a1f9f flags=0x41 pending=1 inflight=2 qos=utility
+[    7.903992] SpringBoard: XPC connection invalidated unexpectedly pid=128 reason=connection interrupted service=com.apple.iconservices agent=SBIconController attempt=1
+[    7.934551] SpringBoard: re-establishing XPC connection to com.apple.iconservices options={immediate=1 retry=1 preserveState=1} currentPhase=IconLoad
+[    7.965114] iconservicesd: icon database warmup started cacheVersion=42 entries=1837 pages=96 preload=1 allowPartial=1
+[    7.996771] iconservicesd: loading icon records bundleID=com.apple.Preferences com.apple.Maps com.apple.camera com.apple.AppStore com.apple.mobilemail com.apple.Music com.apple.TV flags=0x7
+[    8.027114] SpringBoard: received partial icon layout data size=32768 bytes compressed=1 awaiting remaining segments
+[    8.057992] SpringBoard: icon layout restore paused waiting for iconservicesd transaction completion timeout=3000ms
+[    8.088551] backboardd: CA transaction watchdog delaying commit reason=client busy process=SpringBoard pid=128 elapsed=121ms threshold=500ms
+[    8.119114] SpringBoard: main runloop spinning with pending sources CFRunLoop=0x10293a880 mode=kCFRunLoopDefaultMode sources=14 observers=6 timers=9
+[    8.149992] SpringBoard: gesture recognizer subsystem initialized but disabled until UI readiness state=WaitingForLayout
+[    8.180551] UIKitApplication: applicationDidFinishLaunching still blocked waiting for scene activation sceneID=SBMainScene role=UIWindowSceneSessionRoleApplication
+[    8.211114] FrontBoard: scene update deferred reason=client not responsive scene=SBMainScene policy=deferUntilReady
+[    8.241992] SpringBoard: waiting on FrontBoard services handshake domains=com.apple.frontboard.systemappservices com.apple.frontboard.services retries=2
+[    8.272551] SpringBoard: scheduling deferred scene activation delay=250ms reason=UI transaction incomplete
+[    8.303114] backboardd: display transaction pending layers=7 surfaces=3 memory=48MB priority=foreground
+[    8.333992] SpringBoard: notification services registered but delivery paused until main scene activation
+[    8.364551] apsd: push environment ready but client SpringBoard not accepting deliveries yet
+[    8.395114] SpringBoard: status bar provider initialized but visibility suppressed until scene ready flags=0x12
+[    8.425992] SpringBoard: accessibility services loaded voiceover=0 zoom=0 assistiveTouch=0 but UI tree unavailable
+[    8.456551] watchdogd: SpringBoard exceeded expected launch time but within extended grace window elapsed=82.3s limit=120s action=monitor
+[    8.487114] SpringBoard: continuing initialization under watchdog grace period extended=1
+[    8.517992] kernel: task SpringBoard pid=128 priority boosted temporarily due to UI stall mitigation
+[    8.548551] kernel: thread policy update realtime=0 timeshare=1 qos=USER_INTERACTIVE for pid=128
+[    8.579114] SpringBoard: main runloop heartbeat delayed heartbeatInterval=250ms observed=612ms
+[    8.609992] watchdogd: heartbeat irregular but acceptable graceRemaining=37.7s
+[    8.640551] SpringBoard: deferring icon model finalization waiting for complete iconservices snapshot generation phase=PartialSnapshot
+[    8.671114] iconservicesd: continuing icon snapshot rendering scale=3x appearance=light totalIcons=1837 rendered=642 pending=1195
+[    8.701992] SpringBoard: received incremental snapshot update bytes=65536 compressed=1 applying=deferred
+[    8.732551] backboardd: compositor under load frameDrops=2 averageFrameTime=41ms vsyncMissed=1
+[    8.763114] SpringBoard: UI compositor reports degraded performance delaying scene activation to avoid visual corruption
+[    8.793992] SpringBoard: waiting for CoreAnimation transaction flush transactionID=0x9af3 retries=4
+[    8.824551] CoreAnimation: CA::Transaction::commit blocked client=SpringBoard reason=surface not ready elapsed=97ms
+[    8.855114] SpringBoard: re-entering runloop without completing launch phase currentPhase=WaitingForUIStability
+[    8.885992] SpringBoard: scheduling next launch step after delay=500ms reason=stabilityCheck
+[    8.916551] kernel: system still busy, idle suppressed loadavg=2.31 2.08 1.97
+
+[   12.401114] SpringBoard: continuing deferred initialization
+[   12.421441] backboardd: input subsystem warming up
+[   12.441992] backboardd: digitizer ready
+[   12.462118] SpringBoard: enabling touch processing
+[   12.482441] UIKit: UIWindow hierarchy stabilized
+[   12.502993] SpringBoard: checking application state cache
+[   12.523114] SpringBoard: application database verified
+[   12.543441] iconservicesd: icon cache consistency check passed
+[   12.563992] SpringBoard: icon layout integrity OK
+[   12.584114] SpringBoard: restoring widget timelines
+[   12.604441] widgetkit: initializing widget host
+[   12.624992] widgetkit: widget snapshots loaded
+[   12.645114] SpringBoard: widget rendering enabled
+[   12.665441] backboardd: compositor steady
+[   12.685992] CoreAnimation: render loop stable
+[   12.706114] SpringBoard: status bar providers activated
+[   12.726441] SpringBoard: carrier text updated
+[   12.746992] CommCenter: signal strength updated
+[   12.767114] powerd: thermal state nominal
+[   12.787441] powerd: applying normal power profile
+[   12.807992] SpringBoard: checking accessibility state
+[   12.828114] accessibilityd: services available
+[   12.848441] SpringBoard: accessibility features disabled
+[   12.868992] SpringBoard: enabling haptic services
+[   12.889114] mediaserverd: audio session activated
+[   12.909441] mediaserverd: default route speaker
+[   12.929992] SpringBoard: preparing lockscreen services
+[   12.950114] SpringBoard: lockscreen idle
+[   12.970441] SpringBoard: home screen entering foreground
+[   12.990992] backboardd: scene visibility updated
+[   13.011114] SpringBoard: foreground scene active
+[   13.031441] watchdogd: SpringBoard responsive
+[   13.051992] watchdogd: exiting grace monitoring
+[   13.072114] kernel: ui task scheduling normalized
+[   13.092441] kernel: load average decreasing
+[   13.112992] SpringBoard: loading remaining preferences
+[   13.133114] preferencesd: caches ready
+[   13.153441] SpringBoard: preferences applied
+[   13.173992] SpringBoard: refreshing icon badges
+[   13.194114] SpringBoard: badge counts updated
+[   13.214441] apsd: push delivery normal
+[   13.234992] bluetoothd: state powered off
+[   13.255114] wifid: interface active
+[   13.275441] wifid: associated with network
+[   13.295992] SpringBoard: updating control center state
+[   13.316114] SpringBoard: control center ready
+[   13.336441] SpringBoard: updating notification center
+[   13.356992] SpringBoard: notification center ready
+[   13.377114] SpringBoard: initializing spotlight
+[   13.397441] searchd: indexing paused (idle)
+[   13.417992] SpringBoard: spotlight ready
+[   13.438114] SpringBoard: checking background tasks
+[   13.458441] runningboardd: no pending assertions
+[   13.478992] SpringBoard: background state clean
+[   13.499114] SpringBoard: UI idle
+[   13.519441] kernel: system idle entering low power
+[   13.539992] powerd: idle sleep timers armed
+[   13.560114] SpringBoard: system ready for user input
+[   13.580441] backboardd: touch latency nominal
+[   13.600992] CoreAnimation: steady 60fps
+[   13.621114] SpringBoard: home screen fully interactive
+
+[   13.641441] SpringBoard: delayed service reconciliation started after prolonged launch including iconservices frontboard backboardd mediaserverd apsd powerd watchdogd with no fatal inconsistencies detected and all required UI transactions successfully committed
+[   13.661992] SpringBoard: reconciliation complete
+[   13.682114] SpringBoard: finalizing launch state
+[   13.702441] SpringBoard: clearing launch flags
+[   13.722992] SpringBoard: marking boot session active
+[   13.743114] launchd: user session fully started
+[   13.763441] launchd: system services stable
+[   13.783992] kernel: all subsystems operational
+[   13.804114] System: transition to normal operation
+[   13.824441] System: uptime tracking resumed
+[   13.844992] System: ready
