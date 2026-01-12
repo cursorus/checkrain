@@ -10,13 +10,7 @@
 [0:000010] pongoOS: Framebuffer 750x1334@60Hz online
 [0:000011] pongoOS: Console ready
 [0:000012] pongoOS: Loading 
-
-
-
-
-
-
-
+{1.5}
 kernelcache from preboot
 [0:000013] pongoOS: Decompressing kernelcache
 [0:000014] pongoOS: Kernelcache decompression complete
@@ -38,6 +32,7 @@ kernelcache from preboot
 [0:000030] KPF: [NVRAM] Write restrictions lifted
 [0:000031] KPF: Injecting trust cache entries count=1638
 [0:000032] KPF: Kernel patching complete
+{0.5}
 [0:000033] pongoOS: Setting boot-args -v keepsyms=1 debug=0x100 wdt=0
 [0:000034] pongoOS: Booting xnu
 [0:000145] kernel: Darwin Kernel Version 21.6.0
@@ -231,6 +226,7 @@ kernelcache from preboot
 [3:519672] kernel: [User] Waiting for user unlock
 [3:539893] kernel: [System] Boot sequence complete
 [3:560114] kernel: [Done] Welcome back
+{1}
 [3:580335] kernel: [UI] SpringBoard ready for interaction
 [3:600556] kernel: [Audio] Ready for playback
 [3:620777] kernel: [Network] Ready for connections
@@ -252,4 +248,5 @@ kernelcache from preboot
 [3:944313] kernel: [Logger] Verbose logging continues
 [3:964534] kernel: [System] Idle maintenance tasks running
 [3:984755] kernel: [Watchdog] Final heartbeat
+{3}
 [4:004976] kernel: [Done] Boot process complete
