@@ -11,23 +11,30 @@
 
     <title>Boot</title>
     <style>
+        /* ПОДКЛЮЧЕНИЕ ШРИФТА */
+        @font-face {
+            font-family: "CustomFont";
+            /* Браузер сам выберет нужный формат из папки */
+            src: url("font.otf") format("opentype"),
+                 url("font.ttf") format("truetype");
+        }
+
         :root {
-            /* НАСТРОЙКА РАЗМЕРА КАРТИНКИ */
-            --img-width: 75px; 
+            --img-width: 85px; 
         }
 
         body, html {
             margin: 0; padding: 0;
             width: 100%; height: 100%;
             background-color: black; color: white;
-            font-family: "SF Mono", "Monaco", "Inconsolata", monospace;
+            /* ИСПОЛЬЗУЕМ ПОДКЛЮЧЕННЫЙ ШРИФТ */
+            font-family: "CustomFont", "SF Mono", monospace;
             overflow: hidden;
         }
 
-        /* Контейнер теперь растет сверху вниз */
         #log-window {
             position: absolute;
-            top: 0; /* Начинаем сверху */
+            top: 0;
             left: 0;
             width: 100%;
             padding: 10px;
@@ -38,13 +45,12 @@
         }
 
         .line {
-            white-space: nowrap; /* Запрет переноса */
+            white-space: nowrap;
             overflow: hidden;
-            line-height: 1.2;
+            line-height: 1.1; /* Чуть уменьшил для плотности */
             margin-bottom: 1px;
             width: 100%;
             display: block;
-            /* Авто-подбор размера шрифта */
             font-size: 2.5vw; 
         }
 
@@ -70,10 +76,9 @@
     <div id="log-window"></div>
 
     <script>
-        // SERVICE WORKER ДЛЯ ОФФЛАЙНА
         const swCode = `
-            const CACHE_NAME = 'palera1n-v2';
-            const ASSETS = ['./', './index.html', './logs.txt', './image.png', './icon.png'];
+            const CACHE_NAME = 'palera1n-v3';
+            const ASSETS = ['./', './index.html', './logs.txt', './image.png', './icon.png', './font.otf', './font.ttf'];
             self.addEventListener('install', e => e.waitUntil(caches.open(CACHE_NAME).then(c => c.addAll(ASSETS))));
             self.addEventListener('fetch', e => e.respondWith(caches.match(e.request).then(r => r || fetch(e.request))));
         `;
@@ -85,23 +90,22 @@
 
         const logWindow = document.getElementById('log-window');
 
-function sleep(ms) {
-    return new Promise(r => setTimeout(r, ms));
-}
+        function sleep(ms) {
+            return new Promise(r => setTimeout(r, ms));
+        }
 
-function addLine(text) {
-    if (!text.trim()) return;
+        function addLine(text) {
+            if (!text.trim()) return;
+            const lineElement = document.createElement('div');
+            lineElement.className = 'line';
+            lineElement.textContent = text;
+            logWindow.appendChild(lineElement);
 
-    const lineElement = document.createElement('div');
-    lineElement.className = 'line';
-    lineElement.textContent = text;
-    logWindow.appendChild(lineElement);
-
-    const rect = lineElement.getBoundingClientRect();
-    if (rect.bottom > window.innerHeight - 20) {
-        logWindow.removeChild(logWindow.firstChild);
-    }
-}
+            const rect = lineElement.getBoundingClientRect();
+            if (rect.bottom > window.innerHeight - 20) {
+                logWindow.removeChild(logWindow.firstChild);
+            }
+        }
         
         async function startBoot() {
             try {
@@ -110,27 +114,28 @@ function addLine(text) {
                 const lines = text.split('\n');
 
                 for (let rawLine of lines) {
+                    const delayMatch = rawLine.match(/^\{([\d.]+)\}$/);
+                    if (delayMatch) {
+                        const seconds = parseFloat(delayMatch[1]);
+                        // УСКОРЕНИЕ: делим задержку из фигурных скобок на 2 (по желанию)
+                        if (!isNaN(seconds)) {
+                            await sleep((seconds * 1000) / 2); 
+                        }
+                        continue;
+                    }
 
-    // ⏱ ЗАДЕРЖКА В { }
-    const delayMatch = rawLine.match(/^\{([\d.]+)\}$/);
-    if (delayMatch) {
-        const seconds = parseFloat(delayMatch[1]);
-        if (!isNaN(seconds)) {
-            await sleep(seconds * 1000);
-        }
-        continue; // не выводим строку
-    }
+                    addLine(rawLine);
 
-    addLine(rawLine);
+                    // --- НАСТРОЙКА СКОРОСТИ ---
+                    // Было: Math.random() * 40 + 5. Сделал почти мгновенно:
+                    let delay = Math.random() * 10 + 2; 
+                    
+                    // Ускорил специфические задержки jbinit (было 250)
+                    if (rawLine.includes('[jbinit]')) delay = 50;
 
-    // стандартная задержка между строками
-    let delay = Math.random() * 40 + 5;
-    if (rawLine.includes('[jbinit]')) delay = 250;
-
-    await sleep(delay);
-}
+                    await sleep(delay);
+                }
                 
-
                 const cursorLine = document.createElement('div');
                 cursorLine.className = 'line';
                 cursorLine.innerHTML = '<span class="cursor"></span>';
